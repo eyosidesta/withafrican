@@ -1,0 +1,233 @@
+.premium-slider-section {
+    padding: 4rem 0;
+    background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    overflow: hidden;
+}
+
+.premium-slider-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.premium-slider-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.2) 0%, rgba(249, 115, 22, 0.2) 100%);
+    color: var(--accent-yellow);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+    margin-bottom: 1rem;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.premium-slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.slider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+}
+
+.slider-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-btn {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    color: var(--text-primary);
+    transition: var(--transition-normal);
+    flex-shrink: 0;
+}
+
+.slider-btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+/* Premium Card */
+.premium-card {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+.premium-card-image {
+    position: absolute;
+    inset: 0;
+}
+
+.premium-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.premium-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.3) 50%, rgba(15, 23, 42, 0.1) 100%);
+}
+
+.premium-card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    z-index: 2;
+}
+
+.premium-card-content .premium-badge {
+    margin-bottom: 1rem;
+}
+
+.premium-card-content h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.premium-card-category {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: rgba(102, 126, 234, 0.2);
+    color: var(--primary-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+    margin-bottom: 1rem;
+}
+
+.premium-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.premium-card-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.premium-card-info svg {
+    color: var(--primary-color);
+}
+
+.premium-card-cta {
+    color: var(--accent-teal);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: var(--transition-fast);
+}
+
+.premium-card:hover .premium-card-cta {
+    color: var(--primary-light);
+}
+
+/* Dots */
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.slider-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--bg-tertiary);
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.slider-dot:hover {
+    background: var(--text-muted);
+}
+
+.slider-dot.active {
+    background: var(--primary-color);
+    width: 24px;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .premium-slider-section {
+        padding: 3rem 0;
+    }
+
+    .slider-wrapper {
+        height: 350px;
+    }
+
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .premium-card-content {
+        padding: 1.5rem;
+    }
+
+    .premium-card-content h3 {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .premium-slider-container {
+        padding: 0 0.5rem;
+    }
+
+    .slider-wrapper {
+        height: 320px;
+    }
+
+    .slider-btn {
+        display: none;
+    }
+
+    .premium-card-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .premium-card-info p {
+        font-size: 0.85rem;
+    }
+}

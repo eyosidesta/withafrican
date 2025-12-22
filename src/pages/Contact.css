@@ -1,0 +1,281 @@
+.contact-page {
+    min-height: 100vh;
+}
+
+.contact-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-header::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    width: 50%;
+    height: 160%;
+    background: radial-gradient(ellipse, rgba(249, 115, 22, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    padding: 6rem 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.success-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--accent-teal) 0%, #0d9488 100%);
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.success-icon svg {
+    color: white;
+}
+
+.success-message h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.success-message p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+}
+
+/* Form Container */
+.contact-form-container {
+    background: var(--bg-secondary);
+    padding: 2.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.contact-form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.875rem 1rem;
+    background: var(--bg-primary);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.15);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--text-muted);
+}
+
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+    border-color: #ef4444;
+}
+
+.error-text {
+    color: #ef4444;
+    font-size: 0.8rem;
+}
+
+.form-group select {
+    cursor: pointer;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-card,
+.benefits-card {
+    background: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.info-card h3,
+.benefits-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.info-card>p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.info-item>svg {
+    color: var(--primary-color);
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.info-label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.15rem;
+}
+
+.info-value {
+    display: block;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+a.info-value:hover {
+    color: var(--primary-light);
+}
+
+/* Benefits Card */
+.benefits-card {
+    background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(102, 126, 234, 0.1) 100%);
+    border-color: rgba(20, 184, 166, 0.3);
+}
+
+.benefits-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+.benefits-card li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.benefits-card svg {
+    color: var(--accent-teal);
+    flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info {
+        order: -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info-card,
+    .benefits-card {
+        flex: 1;
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-form-container {
+        padding: 1.5rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .info-card,
+    .benefits-card {
+        padding: 1.5rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+}
