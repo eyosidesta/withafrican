@@ -49,13 +49,18 @@
     position: relative;
     border-radius: var(--radius-lg);
     overflow: hidden;
-    background: var(--bg-secondary);
+    background: #f8f9fa;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
 }
 
 .business-hero-image img {
     width: 100%;
-    height: 400px;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
 }
 
 .detail-premium {
@@ -140,14 +145,83 @@
 }
 
 .phone-link,
-.website-link {
+.website-link,
+.email-link {
     color: var(--primary-light);
     transition: var(--transition-fast);
 }
 
 .phone-link:hover,
-.website-link:hover {
+.website-link:hover,
+.email-link:hover {
     color: var(--accent-teal);
+}
+
+/* Business Info Sections */
+.business-info-section {
+    padding: 2rem 0;
+}
+
+.info-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.info-header svg {
+    color: var(--primary-color);
+}
+
+.info-header h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.info-list li {
+    position: relative;
+    padding-left: 1.75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-primary);
+}
+
+.info-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-teal) 100%);
+}
+
+.description-list li::before {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+}
+
+.offer-list li::before {
+    background: linear-gradient(135deg, var(--accent-teal) 0%, var(--primary-color) 100%);
 }
 
 /* Actions */

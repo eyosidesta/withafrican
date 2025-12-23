@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { Phone, MapPin, Globe, ArrowLeft, Star, Tag } from 'lucide-react';
+import { Phone, MapPin, Globe, ArrowLeft, Star, Tag, Mail, FileText, Briefcase } from 'lucide-react';
 import { getBusinessById } from '../data/mockData';
 import './BusinessDetail.css';
 
@@ -23,7 +23,7 @@ const BusinessDetail = () => {
         );
     }
 
-    const { name, category, phone, address, website, premium, image } = business;
+    const { name, category, phone, address, website, email, premium, image, description, whatWeOffer } = business;
 
     return (
         <div className="business-detail-page">
@@ -96,6 +96,18 @@ const BusinessDetail = () => {
                                         </div>
                                     </div>
                                 )}
+
+                                {email && (
+                                    <div className="detail-item">
+                                        <Mail size={20} />
+                                        <div>
+                                            <span className="detail-label">Email</span>
+                                            <a href={`mailto:${email}`} className="detail-value email-link">
+                                                {email}
+                                            </a>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
 
                             {/* Action Buttons */}
@@ -120,6 +132,44 @@ const BusinessDetail = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Description Section */}
+            {description && description.length > 0 && (
+                <section className="business-info-section section">
+                    <div className="container">
+                        <div className="info-card">
+                            <div className="info-header">
+                                <FileText size={24} />
+                                <h2>About This Business</h2>
+                            </div>
+                            <ul className="info-list description-list">
+                                {description.map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {/* What We Offer Section */}
+            {whatWeOffer && whatWeOffer.length > 0 && (
+                <section className="business-info-section section">
+                    <div className="container">
+                        <div className="info-card">
+                            <div className="info-header">
+                                <Briefcase size={24} />
+                                <h2>What We Offer</h2>
+                            </div>
+                            <ul className="info-list offer-list">
+                                {whatWeOffer.map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* CTA Section */}
             <section className="detail-cta section">
