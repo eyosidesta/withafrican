@@ -103,7 +103,7 @@ const businesses = [
     address: "3500 Danforth Ave, Toronto",
     website: null,
     premium: false,
-    image: "/src/assets/images/auto_mechanic/placeholder.png",
+    image: "/src/assets/images/auto_mechanic/b_f_auto.png",
     description: [
       "Quality pre-owned vehicles",
       "Financing available"
@@ -123,7 +123,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/auto_mechanic/placeholder.png",
+    image: "/src/assets/images/auto_mechanic/BRTT_auto.png",
   },
   {
     id: 7,
@@ -134,7 +134,7 @@ const businesses = [
     address: "3 Musgrave St. Victoria Park & Danforth",
     website: null,
     premium: false,
-    image: "/src/assets/images/auto_mechanic/placeholder.png",
+    image: "/src/assets/images/auto_mechanic/mana_auto.png",
     description: [
       "Specialists in VW, Audi, BMW",
       "General repair for all imports and domestic vehicles"
@@ -158,7 +158,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/bakery/placeholder.png",
+    image: "/src/assets/images/bakery/serano_bakery.png",
     description: [
       "Specializing in European pastries",
       "Fresh baked goods daily"
@@ -183,7 +183,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/beauty_salon/placeholder.png",
+    image: "/src/assets/images/beauty_salon/impress_beauty.png",
     description: [
       "Professional hair styling services"
     ],
@@ -202,7 +202,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/beauty_salon/placeholder.png",
+    image: "/src/assets/images/beauty_salon/lily_beauty.png",
     description: [
       "Full service hair salon and spa"
     ],
@@ -221,7 +221,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/beauty_salon/placeholder.png",
+    image: "/src/assets/images/beauty_salon/sunrise_beauty.png",
   },
 
   // =============================================
@@ -237,7 +237,7 @@ const businesses = [
     address: "843 Danforth Ave, Toronto, ON M4J 1L2",
     website: null,
     premium: true,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/catering/desta_market.png",
     description: [
       "Fresh halal meats and Ethiopian groceries",
       "Quality meats at affordable prices"
@@ -261,7 +261,7 @@ const businesses = [
     address: "7 Dibble Street, Toronto, ON M4M 2K2 (Eastern Avenue East of Broadview)",
     website: null,
     premium: false,
-    image: "/src/assets/images/car_detailing/placeholder.png",
+    image: "/src/assets/images/car_detailing/miko_car_detailing.png",
     description: [
       "Professional car detailing services",
       "Mesay Bekele - Detailer"
@@ -281,7 +281,7 @@ const businesses = [
     address: "795 O'Connor Dr, East York, ON M4B 2S6",
     website: "https://parkviewhillscarspa.com",
     premium: false,
-    image: "/src/assets/images/car_detailing/placeholder.png",
+    image: "/src/assets/images/car_detailing/parkview_hills_car_spa.JPG",
     description: [
       "Affordable monthly memberships available",
       "Full service car spa"
@@ -306,7 +306,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/ethiopian_coffee_spicy.png",
     description: [
       "Importer & Exporter of Ethiopian coffee",
       "Sidamo Coffee - Medium Roast"
@@ -327,7 +327,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/home_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/nunu_buna.png",
     description: [
       "Beautiful handcrafted Ethiopian coffee sets",
       "Bring authentic Eritrean and Ethiopian coffee ceremony culture to your home",
@@ -348,7 +348,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/megalo_coffee.png",
   },
   {
     id: 18,
@@ -359,7 +359,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/t_m_coffee.png",
   },
   {
     id: 19,
@@ -370,7 +370,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/sheba_coffee.png",
   },
   // =============================================
   // DENTIST
@@ -384,7 +384,7 @@ const businesses = [
     address: "745 Bloor St W, Toronto, ON M6G 1L6",
     website: null,
     premium: false,
-    image: "/src/assets/images/dentist/placeholder.png",
+    image: "/src/assets/images/dentist/chrstie_dental.png",
     description: [
       "Dr. Andre Hughes - Associates",
       "Professional dental care for the whole family",
@@ -408,7 +408,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/dentist/placeholder.png",
+    image: "/src/assets/images/dentist/zabher_dental.png",
   },
 
   // =============================================
@@ -423,7 +423,7 @@ const businesses = [
     address: null,
     website: "https://www.airlifeduct.com",
     premium: false,
-    image: "/src/assets/images/duct_cleaning/placeholder.png",
+    image: "/src/assets/images/duct_cleaning/air_duct_cleaning.png",
     description: [
       "We are working in your area!",
       "Your neighbour has just enjoyed our services",
@@ -448,7 +448,7 @@ const businesses = [
     address: "513-1500 Keele Street Toronto, ON",
     website: null,
     premium: false,
-    image: "/src/assets/images/electricians/placeholder.png",
+    image: "/src/assets/images/electricians/BLACK_STONE.JPG",
     description: [
       "Ali Gahar - Master Electrician",
       "Contractor Licensed & Insured WSIB",
@@ -476,7 +476,7 @@ const businesses = [
     address: "2448 Danforth Ave, Toronto",
     website: null,
     premium: true,
-    image: "/src/assets/images/furniture_store/placeholder.png",
+    image: "/src/assets/images/furniture_store/selam_furniture.JPG",
     description: [
       "Quality furniture and mattresses",
       "Great selection at affordable prices"
@@ -500,7 +500,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
+    image: "/src/assets/images/coffee_supply/t_m_coffee.png",
   },
   // =============================================
   // HOME SUPPLY
@@ -514,17 +514,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/home_supply/placeholder.png",
-    description: [
-      "Beautiful handcrafted Ethiopian coffee sets",
-      "Bring authentic Eritrean and Ethiopian coffee ceremony culture to your home",
-      "Each set includes high-quality traditional items crafted by skilled artisans, designed for both functionality and beauty"
-    ],
-    whatWeOffer: [
-      "Ethiopian Coffee Sets",
-      "Traditional Coffee Ceremony Items",
-      "Handcrafted Artisan Pieces"
-    ]
+    image: "/src/assets/images/home_supply/mulu_home_supply.png",
   },
 
   // =============================================
@@ -1250,17 +1240,6 @@ const businesses = [
       "Green Coffee",
       "Spices"
     ]
-  },
-  {
-    id: 67,
-    name: "T&M Wholesale Inc",
-    category: "Coffee Supply",
-    phone: "204-894-0552 | 204-691-0777",
-    email: null,
-    address: null,
-    website: null,
-    premium: false,
-    image: "/src/assets/images/coffee_supply/placeholder.png",
   },
 
   // =============================================
