@@ -88,7 +88,7 @@ const businesses = [
     email: "autotrin23@gmail.com",
     address: "777 Warden Ave, Unit 16, Scarborough, ON M1L 4C2",
     website: "https://www.autotrin.net",
-    premium: false,
+    premium: true,
     image: "/src/assets/images/auto_mechanic/autotrin_collision_repair.jpg",
     description: [
       "ልዩነታችን በስራ ጥራታችን"
@@ -133,7 +133,7 @@ const businesses = [
     email: "mannaautoservice@gmail.com",
     address: "3 Musgrave St. Victoria Park & Danforth",
     website: null,
-    premium: false,
+    premium: true,
     image: "/src/assets/images/auto_mechanic/mana_auto.png",
     description: [
       "Specialists in VW, Audi, BMW",
@@ -154,9 +154,9 @@ const businesses = [
     name: "Serano Bakery",
     category: "Bakery",
     phone: "416-462-2735",
-    email: null,
-    address: null,
-    website: null,
+    email: "info@seranobakery.com",
+    address: "830 Pape Ave, Toronto, ON M4K 3T5",
+    website: "https://www.seranobakery.com",
     premium: false,
     image: "/src/assets/images/bakery/serano_bakery.png",
     description: [
@@ -236,7 +236,7 @@ const businesses = [
     email: null,
     address: "843 Danforth Ave, Toronto, ON M4J 1L2",
     website: null,
-    premium: true,
+    premium: false,
     image: "/src/assets/images/catering/desta_market.png",
     description: [
       "Fresh halal meats and Ethiopian groceries",
@@ -401,14 +401,25 @@ const businesses = [
 
   {
     id: 21,
-    name: "Dr. Zabher Dandelhai",
+    name: "Dr. Zabher Dadelahi",
     category: "Dentis",
     phone: "416-690-2438",
-    email: null,
-    address: null,
+    email: "office1@maindental.ca",
+    address: "2558 Danforth Ave, #206, Toronto, ON M4C 1L3 (near TTC) | 18Wynford Dr, unit 112, North York, ON M3C 352",
     website: null,
     premium: false,
     image: "/src/assets/images/dentist/zabher_dental.png",
+    whatWeOffer: [
+      "Brace",
+      "Fillings",
+      "Surgery",
+      "Dentures",
+      "Root Canal",
+      "WisdomTeeth Removal",
+      "Crown & Bridge",
+      "Dental Implants",
+      "Dental Cleaning"
+    ]
   },
 
   // =============================================
@@ -475,7 +486,7 @@ const businesses = [
     email: null,
     address: "2448 Danforth Ave, Toronto",
     website: null,
-    premium: true,
+    premium: false,
     image: "/src/assets/images/furniture_store/selam_furniture.JPG",
     description: [
       "Quality furniture and mattresses",
@@ -529,7 +540,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/yehabesha_injera.png",
     description: [
       "Authentic Ethiopian Bread",
       "100% Teff - Gluten Free"
@@ -549,7 +560,7 @@ const businesses = [
     address: "1936 Danforth Ave, Toronto, ON M4C 1J4",
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/kulubi_injera.png",
     description: [
       "Teff & Barley Only",
       "Healthy choice for your family"
@@ -569,7 +580,7 @@ const businesses = [
     address: "685 Lansdowne Ave. Unit #1",
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/mesobs_injera.png",
     description: [
       "Fresh teff and barley injera"
     ],
@@ -587,7 +598,7 @@ const businesses = [
     address: "1764 Keele St, Toronto, ON M6M 3X1",
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/tenama_injera.png",
     description: [
       "Healthy Choice",
       "Keep it in the Gridge, warm for 1 minute before use",
@@ -607,7 +618,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/mirt_injera.png",
   },
   {
     id: 32,
@@ -618,7 +629,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/injera/placeholder.png",
+    image: "/src/assets/images/injera/manna_injera.png",
   },
 
   // ============.=================================
@@ -633,7 +644,7 @@ const businesses = [
     address: "1493 Gerrard St. E, Toronto, ON M4L 2A4",
     website: null,
     premium: false,
-    image: "/src/assets/images/jewellery/placeholder.png",
+    image: "/src/assets/images/jewellery/bhatti_jewellers.png",
     description: [
       "Fine jewellery selection"
     ],
@@ -655,7 +666,7 @@ const businesses = [
     address: "40 Wynford Dr, Suite 208, Toronto, ON M3C 1J5",
     website: "https://www.girattalaw.com",
     premium: true,
-    image: "/src/assets/images/law_office/placeholder.png",
+    image: "/src/assets/images/law_office/giratta_law.png",
     description: [
       "Your trusted real estate, wills and estates and immigration lawyers",
       "የህግ አገልግሎት የመኖሪያ ቤት እና የንግድ ቤት ስም እናስተላልፋለን",
@@ -677,7 +688,7 @@ const businesses = [
     address: "2300 Danforth Ave, Toronto, ON M4C 1K8",
     website: "https://www.taslaw.ca",
     premium: false,
-    image: "/src/assets/images/law_office/placeholder.png",
+    image: "/src/assets/images/law_office/tas_the_law_office.png",
     description: [
       "The Law Office of  Teklimichael AB Sahlemariam - Lawyer",
       "Family & Criminal Defence Lawyer",
@@ -703,7 +714,7 @@ const businesses = [
     address: "2592 Danforth Ave, Toronto, ON",
     website: null,
     premium: false,
-    image: "/src/assets/images/catering/placeholder.png",
+    image: "/src/assets/images/catering/shewa_meat.JPG",
     description: [
       "Traditional Ethiopian catering services",
       "Perfect for parties, and special events"
@@ -723,7 +734,7 @@ const businesses = [
     address: "2749 Danforth Ave, Toronto, ON M4C 1L8",
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/meat_market/kera_meat.png",
     description: [
       "ለክትፎ ለቁርጥ ለወጥ ስጋ እናቀርባለን",
       "You can get us at our location two: 621 Vahghan Road, Toronto, ON M6C 2R4",
@@ -732,14 +743,14 @@ const businesses = [
   },
   {
     id: 38,
-    name: "Meat Academy",
+    name: "The Meat Academy",
     category: "Meat Market",
     phone: "416-817-0928",
-    email: null,
+    email: "elisskontos@themeatacademy.ca",
     address: null,
-    website: null,
+    website: "https://www.themeatacademy.ca",
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/meat_market/meat_academy.png",
   },
   {
     id: 39,
@@ -750,7 +761,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/meat_market/mister_greek_meat.png",
   },
 
   {
@@ -762,7 +773,7 @@ const businesses = [
     address: "2808 Danforth Ave, Toronto, ON M4C 1M1",
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/meat_market/chercher_meat.png",
     description: [
       "Coffee, Spices & Groceries",
       "Fresh meats and Ethiopian products"
@@ -783,7 +794,7 @@ const businesses = [
     address: "2296 Eglinton Avenue East",
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/meat_market/HABESHA_MEAT.JPG",
     description: [
       "የበግ ሥጋ ሙሉ ግማሽ እንዲሁም በሚፈልጉት መጠን በትዕዛዝ እናቀርባለን",
       "Fresh BBQ meat available",
@@ -808,7 +819,7 @@ const businesses = [
     address: null,
     website: "https://mortgageweb.ca/abiye",
     premium: false,
-    image: "/src/assets/images/mortgage_agent/placeholder.png",
+    image: "/src/assets/images/mortgage_agent/abiy_tenaw_mortgage.png",
     description: [
       "Your mortgage wellness partner",
       "ቤት ለመግዛት የሞርጌጅ (የባንክ) ብድር ከፈለጉ በዚህ ስራ ልምድ ያለውን አብይ ጤናውን ደውለው ያነጋግሩ።"
@@ -836,7 +847,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/mortgage_agent/placeholder.png",
+    image: "/src/assets/images/money_transfer/hewad_exchange.png",
   },
 
   // =============================================
@@ -851,7 +862,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/mortgage_agent/placeholder.png",
+    image: "/src/assets/images/plumbing_services/binyam_plumbing_service.png",
   },
   {
     id: 45,
@@ -862,7 +873,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/mortgage_agent/placeholder.png",
+    image: "/src/assets/images/plumbing_services/samuel_plumber.png",
   },
 
   // =============================================
@@ -897,7 +908,7 @@ const businesses = [
     address: "3-1286 Kennedy R, Scarborough, ON M1P 2L5",
     website: null,
     premium: false,
-    image: "/src/assets/images/real_estate/placeholder.png",
+    image: "/src/assets/images/real_estate/yohannes_real_estate.png",
     description: [
       "Sales Representative at RE/MAX ACE",
       "Experienced real estate professional"
@@ -918,7 +929,7 @@ const businesses = [
     address: "8 Sampson Mews, Suite 201, Toronto, ON M3C 0H5",
     website: null,
     premium: false,
-    image: "/src/assets/images/real_estate/placeholder.png",
+    image: "/src/assets/images/real_estate/royal_lepage.png",
     description: [
       "ንፅፋፍ አገልግሎትገዛ ንመንበሪ ይኹን ንትካል ክትገዝኡ / ንክሸጡ ደውሉለይ",
       "በጠራ አሰራር ቤት ለመሸጥና ለመግዛት ሲያስፈልግዎ ደውለው ያነጋግሩን።"
@@ -937,7 +948,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/real_estate/placeholder.png",
+    image: "/src/assets/images/real_estate/michael_real_estate.png",
     description: [
       "#4 out of 70,000 Trreb Agents",
       "Buying, Selling or Investing in Real Estate",
@@ -953,7 +964,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/real_estate/placeholder.png",
+    image: "/src/assets/images/real_estate/mesfin_bekele_sales.png",
     description: [
       "Sales Representative at Century 21",
       "Thinking of Buying, Selling, Investment in Real Estate"
@@ -973,7 +984,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/real_estate/placeholder.png",
+    image: "/src/assets/images/real_estate/homelife_real_estate.png",
   },
 
   // =============================================
@@ -987,8 +998,8 @@ const businesses = [
     email: null,
     address: null,
     website: null,
-    premium: true,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    premium: false,
+    image: "/src/assets/images/renovation/amg_home_renovation.png",
   },
   {
     id: 53,
@@ -998,8 +1009,8 @@ const businesses = [
     email: null,
     address: null,
     website: null,
-    premium: true,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    premium: false,
+    image: "/src/assets/images/renovation/semere_construction.png",
   },
 
   // =============================================
@@ -1013,8 +1024,8 @@ const businesses = [
     email: null,
     address: "2741 Danforth Ave, Toronto, ON M4C 1L8",
     website: null,
-    premium: true,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    premium: false,
+    image: "/src/assets/images/restaurant_cafe/kera_restaurant.JPG",
     description: [
       "Traditional Ethiopian cuisine",
       "ቄራ ሬስቶራንት የባህል ምግቦችን ከኛ ጋር ያጣጥሙ"
@@ -1035,7 +1046,7 @@ const businesses = [
     address: "175 Queen St E Toronto, ON",
     website: "https://Spicyethiopian.com",
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/the_spicy_ethiopian.JPG",
     description: [
       "Authentic Ethiopian cuisine with a spicy twist",
       "Fresh ingredients and traditional recipes"
@@ -1056,7 +1067,7 @@ const businesses = [
     address: "1214 Dufferin Avenue, Toronto, ON M4J 1M6",
     website: "https://lalibelacuisine.com",
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/lalibela_restaurant.png",
     description: [
       "Ethiopian Restaurant",
       "Traditional dining experience"
@@ -1076,7 +1087,7 @@ const businesses = [
     address: "1360 Danforth Ave",
     website: "https://www.wazema.ca",
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/wazema_restaurant.png",
     description: [
       "Ethiopian Restaurant",
       "Authentic Ethiopian dining"
@@ -1096,7 +1107,7 @@ const businesses = [
     address: "685 Lansdowne Ave, Toronto, ON MBH 3Y9",
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/mesob_restaurant.png",
     description: [
       "መዝናናት ሲፈልጉ መጥተው ከረምቡላ መጫውት የችላሉ",
       "Traditional Ethiopian dining",
@@ -1117,7 +1128,7 @@ const businesses = [
     address: "1408 Danforth Ave, Toronto, ON M4J 1N2",
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/rendezvous_restaurant.png",
     description: [
       "Ethiopian dining experience",
       "Good food and good friends since 1984"
@@ -1137,7 +1148,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/meda_bar.png",
   },
   {
     id: 61,
@@ -1148,7 +1159,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/jolly_bar.png",
   },
   {
     id: 62,
@@ -1159,7 +1170,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/lavegan_restaurant.png",
   },
   {
     id: 63,
@@ -1167,10 +1178,13 @@ const businesses = [
     category: "Restaurant / Café",
     phone: "416-923-5438",
     email: null,
-    address: null,
+    address: "4 Irwin Ave, Toronto, ON M4Y 1K9",
     website: null,
     premium: false,
-    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+    image: "/src/assets/images/restaurant_cafe/ethiopian_house_restaurant.png",
+    description: [
+      "We are located two blocks North of Wellesley St at Yong St",
+    ],
   },
 
   // =============================================
@@ -1185,7 +1199,7 @@ const businesses = [
     address: "2741 Danforth Ave, Toronto ON M4C 1L8 / 521 Vaughan Road, Toronto ON M6C 2R4",
     website: null,
     premium: false,
-    image: "/src/assets/images/spices/placeholder.png",
+    image: "/src/assets/images/spices/kezira_spices.png",
     description: [
       "Ethiopian Spices Distributor",
       "You can find us in all Habesha stores",
@@ -1201,8 +1215,8 @@ const businesses = [
     email: "contact@eaststar.ca",
     address: null,
     website: "https://www.eaststar.ca",
-    premium: false,
-    image: "/src/assets/images/spices/placeholder.png",
+    premium: true,
+    image: "/src/assets/images/spices/east_star_spices.png",
     description: [
       "Import, Export & Wholesale",
       "Ethiopian spices and products"
@@ -1227,7 +1241,7 @@ const businesses = [
     address: "Addis Ababa Ethiopia to Canada & US",
     website: null,
     premium: false,
-    image: "/src/assets/images/teff_grains/placeholder.png",
+    image: "/src/assets/images/teff_grains/CRE_TRADING.JPG",
     description: [
       "Teff Flour, Teff Grain, Green Coffee & Spices",
       "Exporter from Addis Ababa Ethiopia to Canada & US",
@@ -1254,7 +1268,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/tire_distributor/placeholder.png",
+    image: "/src/assets/images/travel_agency/ethiopian_airlines.png",
   },
 
   // =============================================
@@ -1269,7 +1283,7 @@ const businesses = [
     address: "140 Manville Rd, Unit 4-5",
     website: "https://www.redseatire.com",
     premium: false,
-    image: "/src/assets/images/tire_distributor/placeholder.png",
+    image: "/src/assets/images/tire_distributor/RED_SEA_TIRE.JPG",
     description: [
       "Professional tire distribution services"
     ],
@@ -1292,7 +1306,7 @@ const businesses = [
     address: "1024 Bloor St W, Toronto, ON M6H 1M2",
     website: null,
     premium: false,
-    image: "/src/assets/images/variety_store/placeholder.png",
+    image: "/src/assets/images/variety_store/t_k_store.png",
     description: [
       "Ethiopian groceries and convenience items"
     ],
@@ -1311,7 +1325,7 @@ const businesses = [
     address: "28 Dundas St. E Mississauga",
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/variety_store/markato.JPG",
     description: [
       "የሀበሻ ቅመማ ቅመም እና ስጋ ቤት በ ሚሲሳጋ",
     ]
@@ -1325,7 +1339,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/variety_store/massawa_store.png",
   },
   {
     id: 73,
@@ -1336,7 +1350,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/variety_store/selam_variety.png",
   },
   {
     id: 74,
@@ -1347,7 +1361,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/meat_market/placeholder.png",
+    image: "/src/assets/images/variety_store/sheger_variety.png",
   },
   {
     id: 75,
@@ -1358,7 +1372,7 @@ const businesses = [
     address: "2871 Keele St North York Toronto, M3M 2G7",
     website: null,
     premium: false,
-    image: "/src/assets/images/variety_store/placeholder.png",
+    image: "/src/assets/images/variety_store/selam_convenience.JPG",
     description: [
       "Ethiopian groceries and convenience items"
     ],
@@ -1381,7 +1395,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/videographer/placeholder.png",
+    image: "/src/assets/images/videographer/with_africa_photography.png",
     description: [
       "Professional photography and videography services"
     ],
@@ -1400,15 +1414,47 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/videographer/placeholder.png",
+    image: "/src/assets/images/videographer/photo_berhan.png",
 
+  },
+
+  // =============================================
+  // WEBSITE / GRAPHIC DESIGN / DATA SCIENCE
+  // =============================================
+
+  {
+    id: 78,
+    name: "Cornerstone Tech Studio / Eyosias",
+    category: "Website / Graphic Design / Data Science",
+    phone: "647-922-7599",
+    email: "desta.eyosias@gmail.com",
+    address: null,
+    website: "https://www.cornerstonetechstudio.com",
+    premium: false,
+    image: "/src/assets/images/website_design_datascience/cornerstone_tech_studio.png",
+    description: [
+      "Cornerstone Tech Studio helps businesses grow using modern technology and design",
+      "We create beautiful and professional websites for small and growing businesses",
+      "We help businesses look trustworthy and professional online",
+      "Our services are designed to be simple, affordable, and effective",
+      "Serving clients in Canada and internationally"
+    ],
+    whatWeOffer: [
+      "Business Websites",
+      "Online Store (E-commerce) Websites",
+      "Logo Design & Branding",
+      "Flyers, Posters & Social Media Designs",
+      "Website Maintenance & Updates",
+      "Data Reports & Business Insights",
+      "Custom Digital Solutions for Businesses"
+    ]
   },
 
   // =============================================
   // WINDOW / BLINDS
   // =============================================
   {
-    id: 78,
+    id: 79,
     name: "Preethy Blinds & Shutters",
     category: "Window / Blinds",
     phone: "647-919-8644",
@@ -1416,7 +1462,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/src/assets/images/window_blinds/placeholder.png",
+    image: "/src/assets/images/window_blinds/preethy.png",
     description: [
       "Free Estimates - To Save Your Money, Contact Us!",
       "Wholesale, Retail & Service"
