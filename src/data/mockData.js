@@ -14,7 +14,7 @@ const businesses = [
     address: "959 Bloor St. West, Toronto, ON M6H 1L7",
     website: "https://www.discountincometax.com",
     premium: false,
-    image: "/src/assets/images/accounting_income_tax/dicount_income_tax.png",
+    image: "/src/assets/images/accounting_income_tax/discount_income_tax.png",
     description: [
       "Tax preparation specialist with over 30 years of experience",
       "Open and accessible year-round for all your tax needs"
@@ -64,7 +64,7 @@ const businesses = [
     address: "346 Eastern Ave, Toronto, ON M4M 3G5",
     website: "https://www.ahwaiauto.com",
     premium: false,
-    image: "/src/assets/images/auto_mechanic/placeholder.png",
+    image: "/src/assets/images/auto_mechanic/ah_wai_auto.png",
     description: [
       "Full service auto repair and sales center",
       "Experienced mechanics for all vehicle makes and models"
@@ -89,7 +89,7 @@ const businesses = [
     address: "777 Warden Ave, Unit 16, Scarborough, ON M1L 4C2",
     website: "https://www.autotrin.net",
     premium: false,
-    image: "/src/assets/images/auto_mechanic/placeholder.png",
+    image: "/src/assets/images/auto_mechanic/autotrin_collision_repair.jpg",
     description: [
       "ልዩነታችን በስራ ጥራታችን"
     ]
@@ -115,7 +115,7 @@ const businesses = [
     ]
   },
   {
-    id: 49,
+    id: 6,
     name: "BRTT Auto Sales",
     category: "Auto Mechanic / Auto Sales / Auto Body Shop",
     phone: "416-856-8437",
@@ -126,7 +126,7 @@ const businesses = [
     image: "/src/assets/images/auto_mechanic/placeholder.png",
   },
   {
-    id: 6,
+    id: 7,
     name: "Manna Auto Service",
     category: "Auto Mechanic / Auto Sales / Auto Body Shop",
     phone: "416-832-1816",
@@ -150,7 +150,7 @@ const businesses = [
   // BAKERY
   // =============================================
   {
-    id: 7,
+    id: 8,
     name: "Serano Bakery",
     category: "Bakery",
     phone: "416-462-2735",
@@ -175,7 +175,7 @@ const businesses = [
   // BEAUTY SALON & SUPPLY
   // =============================================
   {
-    id: 8,
+    id: 9,
     name: "Impress Hair Salon",
     category: "Beauty Salon & Supply",
     phone: "416-824-1334 / 416-913-0855",
@@ -194,7 +194,7 @@ const businesses = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     name: "Lily Hair Salon & Spa",
     category: "Beauty Salon & Supply",
     phone: "647-804-2546 / 416-867-7703",
@@ -213,7 +213,7 @@ const businesses = [
     ]
   },
   {
-    id: 50,
+    id: 11,
     name: "Sunrise Beauty Supply",
     category: "Beauty Salon & Supply",
     phone: "416-465-8154",
@@ -229,7 +229,7 @@ const businesses = [
   // =============================================
 
   {
-    id: 10,
+    id: 12,
     name: "Desta Market & Catering",
     category: "Catering",
     phone: "416-850-4854 / 647-708-1653",
@@ -253,7 +253,7 @@ const businesses = [
   // CAR DETAILING
   // =============================================
   {
-    id: 11,
+    id: 13,
     name: "Miko Car Detailing",
     category: "Car Detailing",
     phone: "647-886-5700",
@@ -273,7 +273,7 @@ const businesses = [
     ]
   },
   {
-    id: 12,
+    id: 14,
     name: "Parkview Hills Car Spa",
     category: "Car Detailing",
     phone: "416-285-9590",
@@ -298,7 +298,7 @@ const businesses = [
   // COFFEE SUPPLY
   // =============================================
   {
-    id: 13,
+    id: 15,
     name: "Ethiopian Coffee & Spicy",
     category: "Coffee Supply",
     phone: "647-551-0856",
@@ -319,7 +319,7 @@ const businesses = [
     ]
   },
   {
-    id: 18,
+    id: 16,
     name: "Nunu Buna",
     category: "Coffee Supply",
     phone: "289-680-9955",
@@ -340,7 +340,7 @@ const businesses = [
     ]
   },
   {
-    id: 53,
+    id: 17,
     name: "Megalo Coffee",
     category: "Coffee Supply",
     phone: "416-427-7385",
@@ -351,7 +351,7 @@ const businesses = [
     image: "/src/assets/images/coffee_supply/placeholder.png",
   },
   {
-    id: 54,
+    id: 18,
     name: "T&M Wholesale Inc",
     category: "Coffee Supply",
     phone: "204-894-0552 | 204-691-0777",
@@ -362,7 +362,7 @@ const businesses = [
     image: "/src/assets/images/coffee_supply/placeholder.png",
   },
   {
-    id: 56,
+    id: 19,
     name: "Sheba Enterprises Inc. (Saba Sabina)",
     category: "Coffee Supply",
     phone: "416-431-4344",
@@ -376,7 +376,7 @@ const businesses = [
   // DENTIST
   // =============================================
   {
-    id: 14,
+    id: 20,
     name: "Christie Park Dental",
     category: "Dentist",
     phone: "416-531-5796",
@@ -400,7 +400,7 @@ const businesses = [
   },
 
   {
-    id: 57,
+    id: 21,
     name: "Dr. Zabher Dandelhai",
     category: "Dentis",
     phone: "416-690-2438",
@@ -415,7 +415,7 @@ const businesses = [
   // DUCT CLEANING
   // =============================================
   {
-    id: 15,
+    id: 22,
     name: "Air Life Duct Cleaning & HVAC Services",
     category: "Duct Cleaning",
     phone: "416-456-4628 / 647-530-1740",
@@ -440,7 +440,7 @@ const businesses = [
   // ELECTRICIANS
   // =============================================
   {
-    id: 16,
+    id: 23,
     name: "Black Stone Electrical Solutions",
     category: "Electricians",
     phone: "416-402-7253",
@@ -468,7 +468,7 @@ const businesses = [
   // FURNITURE STORE
   // =============================================
   {
-    id: 17,
+    id: 24,
     name: "Selam Furniture & Mattress",
     category: "Furniture Store",
     phone: "416-690-6118 / 416-834-7094",
@@ -492,7 +492,7 @@ const businesses = [
   // Grill
   // =============================================
   {
-    id: 58,
+    id: 25,
     name: "T&M Wholesale Inc",
     category: "Grill",
     phone: "204-894-0552 | 204-691-0777",
@@ -506,7 +506,7 @@ const businesses = [
   // HOME SUPPLY
   // =============================================
   {
-    id: 58,
+    id: 26,
     name: "Mulu Home Accessary Shop",
     category: "Home Supply",
     phone: "416-999-9605",
@@ -531,7 +531,7 @@ const businesses = [
   // INJERA
   // =============================================
   {
-    id: 19,
+    id: 27,
     name: "Yehabesha Injera",
     category: "Injera",
     phone: "905-920-3370",
@@ -551,7 +551,7 @@ const businesses = [
     ]
   },
   {
-    id: 20,
+    id: 28,
     name: "Addisu Kulubi Injera",
     category: "Injera",
     phone: "647-887-6033",
@@ -571,7 +571,7 @@ const businesses = [
     ]
   },
   {
-    id: 21,
+    id: 29,
     name: "Mesobs Injera (Teff & Barley)",
     category: "Injera",
     phone: "647-550-8993 / 416-516-5455",
@@ -589,7 +589,7 @@ const businesses = [
     ]
   },
   {
-    id: 59,
+    id: 30,
     name: "Tenama Injera (Teff & Barley)",
     category: "Injera",
     phone: "647-347-1764 / 416-835-8082",
@@ -609,7 +609,7 @@ const businesses = [
     ]
   },
   {
-    id: 60,
+    id: 31,
     name: "Mirt Injera",
     category: "Injera",
     phone: "647-417-3827",
@@ -620,7 +620,7 @@ const businesses = [
     image: "/src/assets/images/injera/placeholder.png",
   },
   {
-    id: 61,
+    id: 32,
     name: "Manna Injera",
     category: "Injera",
     phone: "647-709-2932",
@@ -635,7 +635,7 @@ const businesses = [
   // JEWELLERY
   // =============================================
   {
-    id: 22,
+    id: 33,
     name: "Bhatti Jewellers",
     category: "Jewellery",
     phone: "416-405-8263",
@@ -657,7 +657,7 @@ const businesses = [
   // LAW OFFICE / LEGAL SERVICE
   // =============================================
   {
-    id: 23,
+    id: 34,
     name: "Giratta Law Professional Corporation",
     category: "Law Office / Legal Service",
     phone: "416-644-8850 / 416-695-3252 / 416-644-8762",
@@ -679,7 +679,7 @@ const businesses = [
     ]
   },
   {
-    id: 24,
+    id: 35,
     name: "TAS Law Office",
     category: "Law Office / Legal Service",
     phone: "647-557-3570 / 437-263-5443 / 437-449-4480",
@@ -690,7 +690,8 @@ const businesses = [
     image: "/src/assets/images/law_office/placeholder.png",
     description: [
       "The Law Office of  Teklimichael AB Sahlemariam - Lawyer",
-      "Family & Criminal Defence Lawyer"
+      "Family & Criminal Defence Lawyer",
+      "For Tigrinya speakers, you can call us at: 780-238-4480"
     ],
     whatWeOffer: [
       "Family Law",
@@ -704,7 +705,7 @@ const businesses = [
   // MEAT MARKET
   // =============================================
   {
-    id: 25,
+    id: 36,
     name: "Shewa Meat Market",
     category: "Meat Market",
     phone: "416-690-0079 / 647-561-9180",
@@ -724,7 +725,7 @@ const businesses = [
     ]
   },
   {
-    id: 47,
+    id: 37,
     name: "Kera Fresh Meat",
     category: "Meat Market",
     phone: "416-699-5372 / 416-887-6734",
@@ -739,9 +740,31 @@ const businesses = [
       "You can call us at: 647-417-3827 for location two"
     ]
   },
+  {
+    id: 38,
+    name: "Meat Academy",
+    category: "Meat Market",
+    phone: "416-817-0928",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/meat_market/placeholder.png",
+  },
+  {
+    id: 39,
+    name: "Mister Greek Meat Market",
+    category: "Meat Market",
+    phone: "416-469-1577 / 416-469-0733",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/meat_market/placeholder.png",
+  },
 
   {
-    id: 27,
+    id: 40,
     name: "Chercher Butcher Store",
     category: "Meat Market",
     phone: "416-519-9660",
@@ -762,7 +785,7 @@ const businesses = [
     ]
   },
   {
-    id: 28,
+    id: 41,
     name: "Habesha Fresh Meat & Grocery",
     category: "Meat Market",
     phone: "416-288-8006 / 437-221-0334",
@@ -787,7 +810,7 @@ const businesses = [
   // MORTGAGE AGENT
   // =============================================
   {
-    id: 29,
+    id: 42,
     name: "Mortgage Wellness (Abiye Tenaw)",
     category: "Mortgage Agent",
     phone: "647-746-0726",
@@ -812,10 +835,51 @@ const businesses = [
   },
 
   // =============================================
+  // MONEY TRANSFER
+  // =============================================
+  {
+    id: 43,
+    name: "Hewad Exchange",
+    category: "Money Transfer",
+    phone: "416-666-4406",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/mortgage_agent/placeholder.png",
+  },
+
+  // =============================================
+  // PLUMBING SERVICES
+  // =============================================
+  {
+    id: 44,
+    name: "Binyam Plumbing Services",
+    category: "Plumbing Services",
+    phone: "437-231-6255",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/mortgage_agent/placeholder.png",
+  },
+  {
+    id: 45,
+    name: "Samuel Certified Plumber",
+    category: "Plumbing Services",
+    phone: "647-568-0192",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/mortgage_agent/placeholder.png",
+  },
+
+  // =============================================
   // REAL ESTATE
   // =============================================
   {
-    id: 30,
+    id: 46,
     name: "David Mamo Real Estate Broker",
     category: "Real Estate",
     phone: "647-779-7858",
@@ -835,8 +899,8 @@ const businesses = [
     ]
   },
   {
-    id: 31,
-    name: "Yohannes Lamorie (RE/MAX ACE)",
+    id: 47,
+    name: "Yohannes Lamorie (REMAX ACE)",
     category: "Real Estate",
     phone: "416-270-1111 / 416-854-4409",
     email: "yohanneslamorie@hotmail.com",
@@ -875,7 +939,7 @@ const businesses = [
     ]
   },
   {
-    id: 32,
+    id: 49,
     name: "Exp Realty Brokerage (Michael Kirubel Firew)",
     category: "Real Estate",
     phone: "647-701-1378",
@@ -891,7 +955,7 @@ const businesses = [
     ],
   },
   {
-    id: 33,
+    id: 50,
     name: "Mesfin Bekele (Century 21)",
     category: "Real Estate",
     phone: "416-877-7421",
@@ -910,12 +974,49 @@ const businesses = [
       "Investment Consultation"
     ]
   },
+  {
+    id: 51,
+    name: "Daniel Tsegaye (Homelife)",
+    category: "Real Estate",
+    phone: "905-741-3363 / 905-574-6400",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/real_estate/placeholder.png",
+  },
+
+  // =============================================
+  // RENOVATION
+  // =============================================
+  {
+    id: 52,
+    name: "AMG Home Renovation",
+    category: "Renovation",
+    phone: "437-998-9366",
+    email: null,
+    address: null,
+    website: null,
+    premium: true,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
+  {
+    id: 53,
+    name: "Semere Construction",
+    category: "Renovation",
+    phone: "647-838-8239",
+    email: null,
+    address: null,
+    website: null,
+    premium: true,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
 
   // =============================================
   // RESTAURANT / CAFÉ
   // =============================================
   {
-    id: 34,
+    id: 54,
     name: "Kera Restaurant",
     category: "Restaurant / Café",
     phone: "416-693-9292",
@@ -936,7 +1037,7 @@ const businesses = [
     ]
   },
   {
-    id: 35,
+    id: 55,
     name: "The Spicy Ethiopian",
     category: "Restaurant / Café",
     phone: "647-830-5994",
@@ -957,7 +1058,7 @@ const businesses = [
     ]
   },
   {
-    id: 36,
+    id: 56,
     name: "Lalibela Cuisine",
     category: "Restaurant / Café",
     phone: "416-645-0486",
@@ -977,7 +1078,7 @@ const businesses = [
     ]
   },
   {
-    id: 37,
+    id: 57,
     name: "Wazema Restaurant",
     category: "Restaurant / Café",
     phone: "416-465-5713",
@@ -997,7 +1098,7 @@ const businesses = [
     ]
   },
   {
-    id: 38,
+    id: 58,
     name: "Mesobs Restaurant",
     category: "Restaurant / Café",
     phone: "647-550-8993",
@@ -1018,8 +1119,8 @@ const businesses = [
     ]
   },
   {
-    id: 39,
-    name: "Nesos Restaurant",
+    id: 59,
+    name: "Rendezvous Restaurant",
     category: "Restaurant / Café",
     phone: "416-469-2513",
     email: null,
@@ -1037,12 +1138,56 @@ const businesses = [
       "Authentic Dining"
     ]
   },
+  {
+    id: 60,
+    name: "Meda Bar",
+    category: "Restaurant / Café",
+    phone: "416-465-6332",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
+  {
+    id: 61,
+    name: "Jolly Bar & Restaurant",
+    category: "Restaurant / Café",
+    phone: "416-350-5288",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
+  {
+    id: 62,
+    name: "LaVegan Ethiopian & Eritrean Vegan",
+    category: "Restaurant / Café",
+    phone: "416-546-8723",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
+  {
+    id: 63,
+    name: "Ethiopian House Restaurant",
+    category: "Restaurant / Café",
+    phone: "416-923-5438",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/restaurant_cafe/placeholder.png",
+  },
 
   // =============================================
   // SPICES
   // =============================================
   {
-    id: 40,
+    id: 64,
     name: "Kezira Spices Distributor Inc.",
     category: "Spices",
     phone: "647-515-4497",
@@ -1059,8 +1204,8 @@ const businesses = [
     ],
   },
   {
-    id: 41,
-    name: "East Star Import, Export & Wholesale",
+    id: 65,
+    name: "East Star Import, Export & Wholesale (Almi Products)",
     category: "Spices",
     phone: "416-825-1083",
     email: "contact@eaststar.ca",
@@ -1079,11 +1224,12 @@ const businesses = [
     ]
   },
 
+
   // =============================================
   // TEFF GRAINS
   // =============================================
   {
-    id: 42,
+    id: 66,
     name: "Core Trading PLC Exporter",
     category: "Teff Grains",
     phone: "+251-9032-43513 / 1-514-577-5419",
@@ -1096,7 +1242,7 @@ const businesses = [
       "Teff Flour, Teff Grain, Green Coffee & Spices",
       "Exporter from Addis Ababa Ethiopia to Canada & US",
       "Addis Ababa Phones: +251-90-324-3513 / +251-91-544-1958",
-      "Canada WhatsApp Numbers: +1-514-577-5419"
+      "Canada WhatsApp Number: +1-514-577-5419"
     ],
     whatWeOffer: [
       "Teff Flour",
@@ -1106,7 +1252,7 @@ const businesses = [
     ]
   },
   {
-    id: 55,
+    id: 67,
     name: "T&M Wholesale Inc",
     category: "Coffee Supply",
     phone: "204-894-0552 | 204-691-0777",
@@ -1118,10 +1264,25 @@ const businesses = [
   },
 
   // =============================================
+  // TAVEL AGENCY / AIR LINES
+  // =============================================
+  {
+    id: 68,
+    name: "Ethiopian Airlines",
+    category: "Tavel Agency / Air Lines",
+    phone: "416-962-0005",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/tire_distributor/placeholder.png",
+  },
+
+  // =============================================
   // TIRE DISTRIBUTOR
   // =============================================
   {
-    id: 43,
+    id: 69,
     name: "Red Sea Tire Corporation",
     category: "Tire Distributor",
     phone: "647-904-4099 / 416-288-6005",
@@ -1144,12 +1305,12 @@ const businesses = [
   // VARIETY STORE / GROCERY STORE
   // =============================================
   {
-    id: 44,
+    id: 70,
     name: "T&K Convenience Store",
     category: "Variety Store / Grocery Store",
-    phone: "416-800-8039 / 416-241-6054",
+    phone: "416-241-6054",
     email: null,
-    address: "2871 Keele St #38-207 North York Toronto / 1024 Bloor St W, Toronto, ON M6H 1M2",
+    address: "1024 Bloor St W, Toronto, ON M6H 1M2",
     website: null,
     premium: false,
     image: "/src/assets/images/variety_store/placeholder.png",
@@ -1163,7 +1324,7 @@ const businesses = [
     ]
   },
   {
-    id: 26,
+    id: 71,
     name: "Merkato Grocery and Meat Market",
     category: "Variety Store / Grocery Store",
     phone: "647-860-1083",
@@ -1177,7 +1338,7 @@ const businesses = [
     ]
   },
   {
-    id: 51,
+    id: 72,
     name: "Massawa Convenience Store",
     category: "Variety Store / Grocery Store",
     phone: "647-346-7788",
@@ -1188,7 +1349,7 @@ const businesses = [
     image: "/src/assets/images/meat_market/placeholder.png",
   },
   {
-    id: 52,
+    id: 73,
     name: "Selam Variety",
     category: "Variety Store / Grocery Store",
     phone: "416-964-0451",
@@ -1199,7 +1360,7 @@ const businesses = [
     image: "/src/assets/images/meat_market/placeholder.png",
   },
   {
-    id: 52,
+    id: 74,
     name: "Sheger Variety",
     category: "Variety Store / Grocery Store",
     phone: "647-712-2880 / 647-725-6252",
@@ -1209,12 +1370,31 @@ const businesses = [
     premium: false,
     image: "/src/assets/images/meat_market/placeholder.png",
   },
+  {
+    id: 75,
+    name: "Selam Convenience Store",
+    category: "Variety Store / Grocery Store",
+    phone: "416-800-8039",
+    email: null,
+    address: "2871 Keele St North York Toronto, M3M 2G7",
+    website: null,
+    premium: false,
+    image: "/src/assets/images/variety_store/placeholder.png",
+    description: [
+      "Ethiopian groceries and convenience items"
+    ],
+    whatWeOffer: [
+      "Ethiopian Groceries",
+      "Convenience Items",
+      "Household Products"
+    ]
+  },
 
   // =============================================
   // VIDEOGRAPHER
   // =============================================
   {
-    id: 45,
+    id: 76,
     name: "With Africa Photography",
     category: "Videographer",
     phone: "647-706-0102",
@@ -1232,12 +1412,24 @@ const businesses = [
       "Professional Editing"
     ]
   },
+  {
+    id: 77,
+    name: "PhotoBerhan",
+    category: "Videographer",
+    phone: "647-895-6630",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/src/assets/images/videographer/placeholder.png",
+
+  },
 
   // =============================================
   // WINDOW / BLINDS
   // =============================================
   {
-    id: 46,
+    id: 78,
     name: "Preethy Blinds & Shutters",
     category: "Window / Blinds",
     phone: "647-919-8644",
