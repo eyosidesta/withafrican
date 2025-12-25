@@ -1,24 +1,22 @@
 .contact-page {
     min-height: 100vh;
-    background: var(--bg-hero);
+    background: var(--bg-body);
+    /* Revert to Dark Navy */
     /* Indigo background to brighten page */
-    padding-top: 2rem;
 }
 
 .contact-header {
     position: relative;
     overflow: hidden;
+    background: var(--bg-hero);
+    /* Keep Indigo for "Advertise Your Business" */
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .contact-header::before {
-    content: '';
-    position: absolute;
-    top: -30%;
-    left: -10%;
-    width: 50%;
-    height: 160%;
-    background: radial-gradient(ellipse, rgba(249, 115, 22, 0.1) 0%, transparent 70%);
-    pointer-events: none;
+    display: none;
+    /* Remove blob to keep solid block look */
 }
 
 /* Success Message */
