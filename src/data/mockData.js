@@ -1,6 +1,8 @@
 // Business Directory Data - WithAfrican
 // Data extracted from With Africa Magazine 2026
 
+import { desc } from "framer-motion/client";
+
 const businesses = [
   // =============================================
   // ACCOUNTING / INCOME TAX
@@ -9,13 +11,14 @@ const businesses = [
     id: 1,
     name: "Discount Income Tax Services",
     category: "Accounting / Income Tax",
-    phone: "416-531-0073 / 416-841-1739",
+    phone: "416-531-0073",
     email: "discountincometax@yahoo.ca / infor@discountincometax.com",
     address: "959 Bloor St. West, Toronto, ON M6H 1L7",
     website: "https://www.discountincometax.com",
     premium: false,
     image: "/images/accounting_income_tax/discount_income_tax.png",
     description: [
+      "Additional Contact Number: 416-841-1739",
       "Tax preparation specialist with over 30 years of experience",
       "Open and accessible year-round for all your tax needs"
     ],
@@ -34,12 +37,15 @@ const businesses = [
     id: 2,
     name: "Abdu Income Tax Services",
     category: "Accounting / Income Tax",
-    phone: "647-717-1483 / 416-693-4888",
+    phone: "647-717-1483",
     email: "abdu@abdutax.com",
     address: "3200 Danforth Ave, Scarborough, ON M1L 1B7",
     website: null,
     premium: false,
     image: "/images/accounting_income_tax/abdu_income_tax.JPG",
+    description: [
+      "Additional Contact Number: 416-693-4888",
+    ],
     whatWeOffer: [
       "Tax Preparation & Filing",
       "Payroll Processing",
@@ -59,13 +65,14 @@ const businesses = [
     id: 3,
     name: "AH Wai Auto",
     category: "Auto Mechanic / Auto Sales / Auto Body Shop",
-    phone: "416-462-0404 / 416-778-0185",
+    phone: "416-462-0404",
     email: "akrem@ahwaiauto.com",
     address: "346 Eastern Ave, Toronto, ON M4M 3G5",
     website: "https://www.ahwaiauto.com",
     premium: false,
     image: "/images/auto_mechanic/ah_wai_auto.png",
     description: [
+      "Additional Contact Number: 416-778-0185",
       "Full service auto repair and sales center",
       "Experienced mechanics for all vehicle makes and models"
     ],
@@ -84,13 +91,14 @@ const businesses = [
     id: 4,
     name: "Auto Trin Body & Collision Repair",
     category: "Auto Mechanic / Auto Sales / Auto Body Shop",
-    phone: "416-755-0241 / 437-755-9031",
+    phone: "416-755-0241",
     email: "autotrin23@gmail.com",
     address: "777 Warden Ave, Unit 16, Scarborough, ON M1L 4C2",
     website: "https://www.autotrin.net",
     premium: true,
     image: "/images/auto_mechanic/autotrin_collision_repair.jpg",
     description: [
+      "Additional Contact Number: 437-755-9031",
       "ልዩነታችን በስራ ጥራታችን"
     ]
   },
@@ -98,13 +106,14 @@ const businesses = [
     id: 5,
     name: "B.F. Auto Sales",
     category: "Auto Mechanic / Auto Sales / Auto Body Shop",
-    phone: "416-304-1261 / 416-817-6855",
+    phone: "416-304-1261",
     email: null,
     address: "3500 Danforth Ave, Toronto",
     website: null,
     premium: false,
     image: "/images/auto_mechanic/b_f_auto.png",
     description: [
+      "Additional Contact Number: 416-817-6855",
       "Quality pre-owned vehicles",
       "Financing available"
     ],
@@ -178,13 +187,14 @@ const businesses = [
     id: 9,
     name: "Impress Hair Salon",
     category: "Beauty Salon & Supply",
-    phone: "416-824-1334 / 416-913-0855",
+    phone: "416-824-1334",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/beauty_salon/impress_beauty.png",
     description: [
+      "Additional Contact Number: 416-913-0855",
       "Professional hair styling services"
     ],
     whatWeOffer: [
@@ -197,13 +207,14 @@ const businesses = [
     id: 10,
     name: "Lily Hair Salon & Spa",
     category: "Beauty Salon & Supply",
-    phone: "647-804-2546 / 416-867-7703",
+    phone: "647-804-2546",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/beauty_salon/lily_beauty.png",
     description: [
+      "Additional Contact Number: 416-867-7703",
       "Full service hair salon and spa"
     ],
     whatWeOffer: [
@@ -232,13 +243,14 @@ const businesses = [
     id: 12,
     name: "Desta Market & Catering",
     category: "Catering",
-    phone: "416-850-4854 / 647-708-1653",
+    phone: "416-850-4854",
     email: null,
     address: "843 Danforth Ave, Toronto, ON M4J 1L2",
     website: null,
     premium: false,
     image: "/images/catering/desta_market.png",
     description: [
+      "Additional Contact Number: 647-708-1653",
       "Fresh halal meats and Ethiopian groceries",
       "Quality meats at affordable prices"
     ],
@@ -354,12 +366,21 @@ const businesses = [
     id: 18,
     name: "T&M Wholesale Inc",
     category: "Coffee Supply",
-    phone: "204-894-0552 | 204-691-0777",
+    phone: "204-894-0552",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/coffee_supply/t_m_coffee.png",
+    description: [
+      "Additional Contact Number: 204-691-0777",
+    ],
+    whatWeOffer: [
+      "Ethiopian Coffee",
+      "Sidamo Coffee (Medium Roast)",
+      "Clothing and Arts",
+      "Spices"
+    ]
   },
   {
     id: 19,
@@ -429,13 +450,14 @@ const businesses = [
     id: 22,
     name: "Air Life Duct Cleaning & HVAC Services",
     category: "Duct Cleaning",
-    phone: "416-456-4628 / 647-530-1740",
+    phone: "416-456-4628",
     email: "airlifeduct@gmail.com",
     address: null,
     website: "https://www.airlifeduct.com",
     premium: false,
     image: "/images/duct_cleaning/air_duct_cleaning.png",
     description: [
+      "Additional Contact Number: 647-530-1740",
       "We are working in your area!",
       "Your neighbour has just enjoyed our services",
       "The most powerful truck mounted equipment"
@@ -482,13 +504,14 @@ const businesses = [
     id: 24,
     name: "Selam Furniture & Mattress",
     category: "Furniture Store",
-    phone: "416-690-6118 / 416-834-7094",
+    phone: "416-690-6118",
     email: null,
     address: "2448 Danforth Ave, Toronto",
     website: null,
     premium: false,
     image: "/images/furniture_store/selam_furniture.JPG",
     description: [
+      "Additional Contact Number: 416-834-7094",
       "Quality furniture and mattresses",
       "Great selection at affordable prices"
     ],
@@ -506,12 +529,15 @@ const businesses = [
     id: 25,
     name: "T&M Wholesale Inc",
     category: "Grill",
-    phone: "204-894-0552 | 204-691-0777",
+    phone: "204-894-0552",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/coffee_supply/t_m_coffee.png",
+    description: [
+      "Additional Contact Number: 204-691-0777",
+    ],
   },
   // =============================================
   // HOME SUPPLY
@@ -575,13 +601,14 @@ const businesses = [
     id: 29,
     name: "Mesobs Injera (Teff & Barley)",
     category: "Injera",
-    phone: "647-550-8993 / 416-516-5455",
+    phone: "647-550-8993",
     email: null,
     address: "685 Lansdowne Ave. Unit #1",
     website: null,
     premium: false,
     image: "/images/injera/mesobs_injera.png",
     description: [
+      "Additional Contact Number: 416-516-5455",
       "Fresh teff and barley injera"
     ],
     whatWeOffer: [
@@ -593,13 +620,14 @@ const businesses = [
     id: 30,
     name: "Tenama Injera (Teff & Barley)",
     category: "Injera",
-    phone: "647-347-1764 / 416-835-8082",
+    phone: "647-347-1764",
     email: null,
     address: "1764 Keele St, Toronto, ON M6M 3X1",
     website: null,
     premium: false,
     image: "/images/injera/tenama_injera.png",
     description: [
+      "Additional Contact Number: 416-835-8082",
       "Healthy Choice",
       "Keep it in the Gridge, warm for 1 minute before use",
       "ለማንኛውም ዝግጅት በተፈለገው ቦታ እናቀርባለን።"
@@ -661,13 +689,14 @@ const businesses = [
     id: 34,
     name: "Giratta Law Professional Corporation",
     category: "Law Office / Legal Service",
-    phone: "416-644-8850 / 416-695-3252 / 416-644-8762",
+    phone: "416-644-8850",
     email: "abel@girattalaw.com",
     address: "40 Wynford Dr, Suite 208, Toronto, ON M3C 1J5",
     website: "https://www.girattalaw.com",
     premium: true,
     image: "/images/law_office/giratta_law.png",
     description: [
+      "Additional Contact Numbers: 416-695-3252 | 416-644-8762",
       "Your trusted real estate, wills and estates and immigration lawyers",
       "የህግ አገልግሎት የመኖሪያ ቤት እና የንግድ ቤት ስም እናስተላልፋለን",
       "ውክልና ኑዛዜና ውርስ የቤተሰብ ህግ እና ጉዳዮች እናስፈጽማለን",
@@ -683,13 +712,14 @@ const businesses = [
     id: 35,
     name: "TAS Law Office",
     category: "Law Office / Legal Service",
-    phone: "647-557-3570 / 437-263-5443 / 437-449-4480",
+    phone: "647-557-3570",
     email: "mishelle@trockeandassociates.ca",
     address: "2300 Danforth Ave, Toronto, ON M4C 1K8",
     website: "https://www.taslaw.ca",
     premium: false,
     image: "/images/law_office/tas_the_law_office.png",
     description: [
+      "Additional Contact Numbers: 437-263-5443 | 437-449-4480",
       "The Law Office of  Teklimichael AB Sahlemariam - Lawyer",
       "Family & Criminal Defence Lawyer",
       "For Tigrinya speakers, you can call us at: 780-238-4480"
@@ -709,13 +739,14 @@ const businesses = [
     id: 36,
     name: "Shewa Meat Market",
     category: "Meat Market",
-    phone: "416-690-0079 / 647-561-9180",
+    phone: "416-690-0079",
     email: null,
     address: "2592 Danforth Ave, Toronto, ON",
     website: null,
     premium: false,
     image: "/images/catering/shewa_meat.JPG",
     description: [
+      "Additional Contact Number: 647-561-9180",
       "Traditional Ethiopian catering services",
       "Perfect for parties, and special events"
     ],
@@ -729,13 +760,14 @@ const businesses = [
     id: 37,
     name: "Kera Fresh Meat",
     category: "Meat Market",
-    phone: "416-699-5372 / 416-887-6734",
+    phone: "416-699-5372",
     email: null,
     address: "2749 Danforth Ave, Toronto, ON M4C 1L8",
     website: null,
     premium: false,
     image: "/images/meat_market/kera_meat.png",
     description: [
+      "Additional Contact Number: 416-887-6734",
       "ለክትፎ ለቁርጥ ለወጥ ስጋ እናቀርባለን",
       "You can get us at our location two: 621 Vahghan Road, Toronto, ON M6C 2R4",
       "You can call us at: 647-417-3827 for location two"
@@ -756,12 +788,15 @@ const businesses = [
     id: 39,
     name: "Mister Greek Meat Market",
     category: "Meat Market",
-    phone: "416-469-1577 / 416-469-0733",
+    phone: "416-469-1577",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/meat_market/mister_greek_meat.png",
+    description: [
+      "Additional Contact Number: 416-469-0733",
+    ]
   },
 
   {
@@ -789,13 +824,14 @@ const businesses = [
     id: 41,
     name: "Habesha Fresh Meat & Grocery",
     category: "Meat Market",
-    phone: "416-288-8006 / 437-221-0334",
+    phone: "416-288-8006",
     email: null,
     address: "2296 Eglinton Avenue East",
     website: null,
     premium: false,
     image: "/images/meat_market/HABESHA_MEAT.JPG",
     description: [
+      "Additional Contact Number: 437-221-0334",
       "የበግ ሥጋ ሙሉ ግማሽ እንዲሁም በሚፈልጉት መጠን በትዕዛዝ እናቀርባለን",
       "Fresh BBQ meat available",
       "Quality Ethiopian groceries"
@@ -903,13 +939,14 @@ const businesses = [
     id: 47,
     name: "Yohannes Lamorie (REMAX ACE)",
     category: "Real Estate",
-    phone: "416-270-1111 / 416-854-4409",
+    phone: "416-270-1111",
     email: "yohanneslamorie@hotmail.com",
     address: "3-1286 Kennedy R, Scarborough, ON M1P 2L5",
     website: null,
     premium: false,
     image: "/images/real_estate/yohannes_real_estate.png",
     description: [
+      "Additional Contact Number: 416-854-4409",
       "Sales Representative at RE/MAX ACE",
       "Experienced real estate professional"
     ],
@@ -924,13 +961,14 @@ const businesses = [
     id: 48,
     name: "Royal LePage - Hany Mehari Sales Representative",
     category: "Real Estate",
-    phone: "416-443-0300 / 647-801-4269",
+    phone: "416-443-0300",
     email: "hanymehari@royallepage.ca",
     address: "8 Sampson Mews, Suite 201, Toronto, ON M3C 0H5",
     website: null,
     premium: false,
     image: "/images/real_estate/royal_lepage.png",
     description: [
+      "Additional Contact Number: 647-801-4269",
       "ንፅፋፍ አገልግሎትገዛ ንመንበሪ ይኹን ንትካል ክትገዝኡ / ንክሸጡ ደውሉለይ",
       "በጠራ አሰራር ቤት ለመሸጥና ለመግዛት ሲያስፈልግዎ ደውለው ያነጋግሩን።"
     ],
@@ -979,12 +1017,15 @@ const businesses = [
     id: 51,
     name: "Daniel Tsegaye (Homelife)",
     category: "Real Estate",
-    phone: "905-741-3363 / 905-574-6400",
+    phone: "905-741-3363",
     email: null,
     address: null,
     website: null,
     premium: false,
     image: "/images/real_estate/homelife_real_estate.png",
+    description: [
+      "Additional Contact Number: 905-574-6400",
+    ]
   },
 
   // =============================================
@@ -1236,17 +1277,17 @@ const businesses = [
     id: 66,
     name: "Core Trading PLC Exporter",
     category: "Teff Grains",
-    phone: "+251-9032-43513 / 1-514-577-5419",
+    phone: "+1-514-577-5419",
     email: null,
     address: "Addis Ababa Ethiopia to Canada & US",
     website: null,
     premium: false,
     image: "/images/teff_grains/CRE_TRADING.JPG",
     description: [
+      "Addis Ababa Phones: +,251-90-324-3513 / +251-91-544-1958",
+      "Canada WhatsApp Number: +1-514-577-5419",
       "Teff Flour, Teff Grain, Green Coffee & Spices",
       "Exporter from Addis Ababa Ethiopia to Canada & US",
-      "Addis Ababa Phones: +251-90-324-3513 / +251-91-544-1958",
-      "Canada WhatsApp Number: +1-514-577-5419"
     ],
     whatWeOffer: [
       "Teff Flour",
@@ -1278,13 +1319,14 @@ const businesses = [
     id: 69,
     name: "Red Sea Tire Corporation",
     category: "Tire Distributor",
-    phone: "647-904-4099 / 416-288-6005",
+    phone: "647-904-4099",
     email: "admin@redseatire.com",
     address: "140 Manville Rd, Unit 4-5",
     website: "https://www.redseatire.com",
     premium: false,
     image: "/images/tire_distributor/RED_SEA_TIRE.JPG",
     description: [
+      "Additional Contact Number: 416-288-6005",
       "Professional tire distribution services"
     ],
     whatWeOffer: [
@@ -1362,6 +1404,9 @@ const businesses = [
     website: null,
     premium: false,
     image: "/images/variety_store/sheger_variety.png",
+    description: [
+      "Additional Contact Number: 647-725-6252",
+    ]
   },
   {
     id: 75,

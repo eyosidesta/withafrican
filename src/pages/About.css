@@ -24,7 +24,10 @@
 
 /* Story Section */
 .about-story {
-    background: var(--bg-primary);
+    background: var(--bg-hero);
+    /* Indigo blocks to brighten page */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .story-content {
@@ -35,6 +38,7 @@
 .story-content h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: #ffffff;
 }
 
 .story-content p {
@@ -50,7 +54,10 @@
 
 /* Values Section */
 .about-values {
-    background: var(--bg-secondary);
+    background: var(--bg-section-alt);
+    /* Slate contrast */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .values-grid {
@@ -61,7 +68,8 @@
 }
 
 .value-card {
-    background: var(--bg-primary);
+    background: var(--bg-card);
+    /* Solid Card */
     padding: 2rem;
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
@@ -73,6 +81,7 @@
     transform: translateY(-5px);
     border-color: var(--primary-color);
     box-shadow: var(--shadow-lg);
+    background: var(--bg-card-hover);
 }
 
 .value-icon {
@@ -93,6 +102,7 @@
 .value-card h3 {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
+    color: var(--text-primary);
 }
 
 .value-card p {
@@ -103,7 +113,10 @@
 
 /* Features Section */
 .about-features {
-    background: var(--bg-primary);
+    background: var(--bg-hero);
+    /* Indigo blocks */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .features-grid {
