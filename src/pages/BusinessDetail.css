@@ -36,6 +36,8 @@
 /* Business Hero */
 .business-hero {
     padding-bottom: 4rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 2rem;
 }
 
 .business-hero-grid {
@@ -49,7 +51,8 @@
     position: relative;
     border-radius: var(--radius-lg);
     overflow: hidden;
-    background: #f8f9fa;
+    background: var(--bg-hero);
+    /* Dark Hero Bg */
     height: 400px;
     display: flex;
     align-items: center;
@@ -78,6 +81,14 @@
     right: 1rem;
     font-size: 0.85rem;
     padding: 0.4rem 1rem;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    /* Solid Gold Gradient */
+    color: #1e1b4b;
+    /* Dark Navy Text */
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
 }
 
 .business-hero-content {
@@ -89,13 +100,14 @@
     align-items: center;
     gap: 0.4rem;
     padding: 0.4rem 1rem;
-    background: linear-gradient(135deg, rgba(251, 191, 36, 0.2) 0%, rgba(249, 115, 22, 0.2) 100%);
-    color: var(--accent-yellow);
+    background: rgba(245, 158, 11, 0.1);
+    /* Gold tint */
+    color: var(--accent-gold);
     font-size: 0.85rem;
     font-weight: 600;
     border-radius: var(--radius-full);
     margin-bottom: 1rem;
-    border: 1px solid rgba(251, 191, 36, 0.3);
+    border: 1px solid rgba(245, 158, 11, 0.3);
 }
 
 .business-hero-content h1 {
@@ -103,6 +115,7 @@
     font-weight: 800;
     margin-bottom: 0.75rem;
     line-height: 1.2;
+    color: #ffffff;
 }
 
 .business-category {
@@ -110,7 +123,8 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(102, 126, 234, 0.15);
+    background: rgba(99, 102, 241, 0.1);
+    /* Indigo tint */
     color: var(--primary-light);
     font-size: 0.9rem;
     font-weight: 600;
@@ -172,10 +186,12 @@
 }
 
 .info-card {
-    background: var(--bg-secondary);
+    background: var(--bg-card);
+    /* Solid Card */
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     padding: 2rem;
+    box-shadow: var(--shadow-sm);
 }
 
 .info-header {
@@ -195,6 +211,7 @@
     font-size: 1.35rem;
     font-weight: 700;
     margin: 0;
+    color: var(--text-primary);
 }
 
 .info-list {
@@ -242,7 +259,8 @@
 
 /* Detail CTA */
 .detail-cta {
-    background: var(--bg-secondary);
+    background: var(--bg-section-alt);
+    /* Dark Slate Contrast */
     border-top: 1px solid var(--border-color);
 }
 

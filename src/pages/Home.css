@@ -1,20 +1,17 @@
 /* Hero Section */
+/* Hero Section */
 .hero-section {
     padding: 5rem 0 4rem;
-    background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    background: var(--bg-hero);
+    /* Solid Deep Indigo */
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .hero-section::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 60%;
-    height: 150%;
-    background: radial-gradient(ellipse, rgba(102, 126, 234, 0.15) 0%, transparent 70%);
-    pointer-events: none;
+    /* Optional: Subtle pattern or gradient overlay if needed, strictly contained */
+    display: none;
 }
 
 .hero-content {
@@ -30,13 +27,13 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(102, 126, 234, 0.15);
+    background: rgba(99, 102, 241, 0.1);
     color: var(--primary-light);
     font-size: 0.875rem;
     font-weight: 600;
     border-radius: var(--radius-full);
     margin-bottom: 1.5rem;
-    border: 1px solid rgba(102, 126, 234, 0.3);
+    border: 1px solid rgba(99, 102, 241, 0.2);
 }
 
 .hero-content h1 {
@@ -44,6 +41,8 @@
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1.5rem;
+    color: #ffffff;
+    /* Ensure white text on dark hero */
 }
 
 .hero-content p {
@@ -62,7 +61,10 @@
 
 /* Directory Section */
 .directory-section {
-    background: var(--bg-primary);
+    background: var(--bg-section-alt);
+    /* Contrasting Dark Slate */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .directory-header {
@@ -90,15 +92,18 @@
 }
 
 .category-group {
-    background: var(--bg-secondary);
+    background: var(--bg-card);
+    /* Solid Card Background */
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     overflow: hidden;
+    box-shadow: var(--shadow-sm);
 }
 
 .category-title {
     padding: 1rem 1.5rem;
-    background: linear-gradient(90deg, rgba(102, 126, 234, 0.15) 0%, transparent 100%);
+    background: var(--bg-card-hover);
+    /* Slightly lighter header for card */
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-primary);

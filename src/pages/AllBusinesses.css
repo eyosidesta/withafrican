@@ -56,9 +56,11 @@
 .no-results-box {
     text-align: center;
     padding: 4rem 2rem;
-    background: var(--bg-secondary);
+    background: var(--bg-card);
+    /* Solid Card */
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
 }
 
 .no-results-box svg {
@@ -69,6 +71,7 @@
 .no-results-box h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    color: var(--text-primary);
 }
 
 .no-results-box p {
@@ -80,7 +83,8 @@
 .all-biz-cta {
     margin-top: 4rem;
     padding: 3rem;
-    background: var(--bg-secondary);
+    background: var(--bg-section-alt);
+    /* Dark Slate Contrast */
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
     text-align: center;
