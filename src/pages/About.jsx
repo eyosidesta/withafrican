@@ -122,7 +122,7 @@ const About = () => {
                                 <span className="visual-label">Categories</span>
                             </div>
                             <div className="visual-card accent">
-                                <span className="visual-number">100s</span>
+                                <span className="visual-number">100+</span>
                                 <span className="visual-label">Happy Customers</span>
                             </div>
                         </div>
