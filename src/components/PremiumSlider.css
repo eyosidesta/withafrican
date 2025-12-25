@@ -104,7 +104,17 @@
     right: 0;
     padding: 2rem;
     z-index: 2;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.premium-card:hover .premium-card-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
 
 .premium-card-content .premium-badge {
     margin-bottom: 1rem;

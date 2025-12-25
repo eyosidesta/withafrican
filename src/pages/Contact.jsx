@@ -216,7 +216,7 @@ const Contact = () => {
                                         <Phone size={20} />
                                         <div>
                                             <span className="info-label">Phone</span>
-                                            <a href="tel:4165550100" className="info-value">(416) 555-0100</a>
+                                            <a href="tel:4165550100" className="info-value">(647) 706-0102</a>
                                         </div>
                                     </div>
 
