@@ -47,7 +47,7 @@ const Footer = () => {
                         <ul className="footer-contact">
                             <li>
                                 <Phone size={18} />
-                                <span>(416) 555-0100</span>
+                                <span>(647) 706-0102</span>
                             </li>
                             <li>
                                 <Mail size={18} />

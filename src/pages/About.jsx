@@ -57,7 +57,7 @@ const About = () => {
                             that communities have relied on for years and bring them to the digital world?
                         </p>
                         <p>
-                            For decades, local businesses have connected with customers through calendar advertising—a familiar,
+                            For decades, local businesses have connected with customers through calendar advertising a familiar,
                             trusted format that people keep in their homes all year long. We saw an opportunity to extend that
                             reach by creating an online directory that complements these traditional methods.
                         </p>
@@ -114,15 +114,15 @@ const About = () => {
                         </div>
                         <div className="features-visual">
                             <div className="visual-card">
-                                <span className="visual-number">500+</span>
+                                <span className="visual-number">70+</span>
                                 <span className="visual-label">Local Businesses</span>
                             </div>
                             <div className="visual-card">
-                                <span className="visual-number">50+</span>
+                                <span className="visual-number">30+</span>
                                 <span className="visual-label">Categories</span>
                             </div>
                             <div className="visual-card accent">
-                                <span className="visual-number">1000s</span>
+                                <span className="visual-number">100s</span>
                                 <span className="visual-label">Happy Customers</span>
                             </div>
                         </div>

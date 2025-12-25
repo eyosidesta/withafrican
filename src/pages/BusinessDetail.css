@@ -61,6 +61,15 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.business-hero-image {
+    cursor: pointer;
+}
+
+.business-hero-image:hover img {
+    transform: scale(1.05);
 }
 
 .detail-premium {
