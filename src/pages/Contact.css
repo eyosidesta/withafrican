@@ -1,5 +1,8 @@
 .contact-page {
     min-height: 100vh;
+    background: var(--bg-hero);
+    /* Indigo background to brighten page */
+    padding-top: 2rem;
 }
 
 .contact-header {

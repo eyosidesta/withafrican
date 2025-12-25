@@ -24,8 +24,8 @@
 
 /* Story Section */
 .about-story {
-    background: var(--bg-section-alt);
-    /* Dark Slate */
+    background: var(--bg-hero);
+    /* Indigo blocks to brighten page */
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -54,8 +54,8 @@
 
 /* Values Section */
 .about-values {
-    background: var(--bg-body);
-    /* Dark Navy */
+    background: var(--bg-section-alt);
+    /* Slate contrast */
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -113,8 +113,8 @@
 
 /* Features Section */
 .about-features {
-    background: var(--bg-section-alt);
-    /* Dark Slate contrast */
+    background: var(--bg-hero);
+    /* Indigo blocks */
     padding-top: 5rem;
     padding-bottom: 5rem;
 }

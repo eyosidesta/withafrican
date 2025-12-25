@@ -1,55 +1,69 @@
 .all-businesses-page {
     min-height: 100vh;
+    background: var(--bg-hero);
+    /* Use Indigo "Discover" color */
+    padding-top: 2rem;
 }
 
 .page-header-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
-    background: var(--primary-gradient);
-    border-radius: var(--radius-md);
-    margin-bottom: 1.25rem;
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-full);
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
 }
 
 .page-header-icon svg {
-    color: white;
+    color: var(--accent-gold);
 }
 
 .all-biz-search {
     max-width: 700px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 3rem;
+    position: relative;
+    z-index: 2;
 }
 
 .search-results-info {
     text-align: center;
-    color: var(--text-secondary);
-    margin-bottom: 2rem;
+    color: var(--primary-light);
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 /* Categories Container */
 .categories-container {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .category-section {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-card);
+    /* Solid Card for contrast against Indigo page */
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
 }
 
 .category-section:last-child {
-    border-bottom: none;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .category-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.75rem;
+    font-weight: 800;
     margin-bottom: 1.5rem;
     padding-left: 1rem;
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid var(--accent-gold);
+    color: var(--text-primary);
 }
 
 /* No Results */
