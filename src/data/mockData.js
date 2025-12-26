@@ -423,7 +423,7 @@ const businesses = [
   {
     id: 21,
     name: "Dr. Zabher Dadelahi",
-    category: "Dentis",
+    category: "Dentist",
     phone: "416-690-2438",
     email: "office1@maindental.ca",
     address: "2558 Danforth Ave, #206, Toronto, ON M4C 1L3 (near TTC) | 18Wynford Dr, unit 112, North York, ON M3C 352",
@@ -872,18 +872,18 @@ const businesses = [
   },
 
   // =============================================
-  // MONEY TRANSFER
+  // MONEY EXCHANGE
   // =============================================
   {
     id: 43,
     name: "Hewad Exchange",
-    category: "Money Transfer",
+    category: "Money Exchange",
     phone: "416-666-4406",
     email: null,
     address: null,
     website: null,
     premium: false,
-    image: "/images/money_transfer/hewad_exchange.png",
+    image: "/images/money_exchange/hewad_exchange.png",
   },
 
   // =============================================
