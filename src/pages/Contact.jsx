@@ -42,21 +42,35 @@ const Contact = () => {
         return Object.keys(newErrors).length === 0;
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         if (validateForm()) {
-            // Simulate form submission
-            console.log('Form submitted:', formData);
-            setIsSubmitted(true);
-            // Reset form
-            setFormData({
-                businessName: '',
-                contactName: '',
-                phone: '',
-                email: '',
-                category: '',
-                message: ''
-            });
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData),
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    setIsSubmitted(true);
+                    setFormData({
+                        businessName: '',
+                        contactName: '',
+                        phone: '',
+                        email: '',
+                        category: '',
+                        message: ''
+                    });
+                } else {
+                    setErrors(prev => ({ ...prev, submit: data.message || 'Something went wrong. Please try again.' }));
+                }
+            } catch (error) {
+                console.error('Submission error:', error);
+                setErrors(prev => ({ ...prev, submit: 'Failed to send inquiry. Please try again later.' }));
+            }
         }
     };
 
