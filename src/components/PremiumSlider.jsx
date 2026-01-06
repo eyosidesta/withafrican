@@ -88,26 +88,6 @@ const PremiumSlider = () => {
                                 <Link to={`/business/${currentBusiness.id}`} className="premium-card">
                                     <div className="premium-card-image">
                                         <img src={currentBusiness.image} alt={currentBusiness.name} />
-                                        <div className="premium-card-overlay" />
-                                    </div>
-                                    <div className="premium-card-content">
-                                        <span className="premium-badge">
-                                            <Star size={12} />
-                                            Premium
-                                        </span>
-                                        <h3>{currentBusiness.name}</h3>
-                                        <span className="premium-card-category">{currentBusiness.category}</span>
-                                        <div className="premium-card-info">
-                                            <p>
-                                                <Phone size={16} />
-                                                {currentBusiness.phone}
-                                            </p>
-                                            <p>
-                                                <MapPin size={16} />
-                                                {currentBusiness.address}
-                                            </p>
-                                        </div>
-                                        <span className="premium-card-cta">View Details →</span>
                                     </div>
                                 </Link>
                             </motion.div>
