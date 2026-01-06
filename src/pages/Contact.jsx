@@ -238,7 +238,7 @@ const Contact = () => {
                                         <Mail size={20} />
                                         <div>
                                             <span className="info-label">Email</span>
-                                            <a href="mailto:info@withafrican.com" className="info-value">info@withafrican.com</a>
+                                            <a href="mailto:danielbahta@gmail.com" className="info-value">danielbahta@gmail.com</a>
                                         </div>
                                     </div>
 
