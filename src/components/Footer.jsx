@@ -51,7 +51,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Mail size={18} />
-                                <span>info@withafrican.com</span>
+                                <span>danielbahta@gmail.com</span>
                             </li>
                             <li>
                                 <MapPin size={18} />
@@ -69,6 +69,14 @@ const Footer = () => {
                         <Link to="/contact" className="btn btn-accent">
                             Advertise Now
                         </Link>
+                    </div>
+                </div>
+
+                <div className="developer-credit-container">
+                    <div className="developer-credit">
+                        <p>
+                            Developed by Eyosias L <a href="tel:+1(647) 9227599">+1(647) 922-7599</a> or desta.eyosias@gmail.com
+                        </p>
                     </div>
                 </div>
 
