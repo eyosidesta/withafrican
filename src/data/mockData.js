@@ -391,7 +391,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/images/coffee_supply/sheba_coffee.png",
+    image: "/images/coffee_supply/sheba_coffee.JPEG",
   },
   // =============================================
   // DENTIST
