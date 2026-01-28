@@ -132,7 +132,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/images/auto_mechanic/BRTT_auto.png",
+    image: "/images/auto_mechanic/BRTT_auto.jpg",
   },
   {
     id: 7,
@@ -966,7 +966,7 @@ const businesses = [
     address: "8 Sampson Mews, Suite 201, Toronto, ON M3C 0H5",
     website: null,
     premium: false,
-    image: "/images/real_estate/royal_lepage.png",
+    image: "/images/real_estate/royal_lepage.jpg",
     description: [
       "Additional Contact Number: 647-801-4269",
       "ንፅፋፍ አገልግሎትገዛ ንመንበሪ ይኹን ንትካል ክትገዝኡ / ንክሸጡ ደውሉለይ",
