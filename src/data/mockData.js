@@ -936,6 +936,21 @@ const businesses = [
     ]
   },
   {
+    id: 80,
+    name: "Right At Home Realty Inc., Brokerage",
+    category: "Real Estate",
+    phone: "416-996-3232",
+    email: "samuelbekele@gmail.com",
+    address: "Morneau Sobeco Centre I1. 895 Don Mills Rd, Suite 200, Toronto, ON M3C TW3",
+    website: "http://www.movetotheqta.com",
+    premium: false,
+    image: "/images/real_estate/right_at_home.jpg",
+    description: [
+      "Bus :416 391 3232",
+      "Fax : 416 391 0319",
+    ],
+  },
+  {
     id: 47,
     name: "Yohannes Lamorie (REMAX ACE)",
     category: "Real Estate",
