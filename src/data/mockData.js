@@ -1439,6 +1439,10 @@ const businesses = [
     image: "/images/variety_store/sheger_family.jpg",
     description: [
       "Additional Contact Number: 647-725-6252",
+    ],
+    whatWeOffer: [
+      "Sheger Family Injera and Catering Services",
+      "Healthy, Timely, and Delicious"
     ]
   },
   {
