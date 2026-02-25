@@ -659,6 +659,24 @@ const businesses = [
     premium: false,
     image: "/images/injera/manna_injera.png",
   },
+  {
+    id: 81,
+    name: "Sheger Variety",
+    category: "Injera",
+    phone: "647-712-2880 / 647-725-6252",
+    email: null,
+    address: "3246 Eglinton Ave, East",
+    website: null,
+    premium: false,
+    image: "/images/injera/sheger_family.jpg",
+    description: [
+      "Additional Contact Number: 647-725-6252",
+    ],
+    whatWeOffer: [
+      "Sheger Family Injera and Catering Services",
+      "Healthy, Timely, and Delicious"
+    ]
+  },
 
   // ============.=================================
   // JEWELLERY
@@ -1418,7 +1436,7 @@ const businesses = [
     address: null,
     website: null,
     premium: false,
-    image: "/images/variety_store/sheger_variety.png",
+    image: "/images/variety_store/sheger_family.jpg",
     description: [
       "Additional Contact Number: 647-725-6252",
     ]
