@@ -1381,7 +1381,7 @@ const businesses = [
     address: "1024 Bloor St W, Toronto, ON M6H 1M2",
     website: null,
     premium: false,
-    image: "/images/variety_store/t_k_store.png",
+    image: "/images/variety_store/tk_convenience.jpg",
     description: [
       "Ethiopian groceries and convenience items"
     ],
