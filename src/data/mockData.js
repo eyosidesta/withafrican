@@ -288,12 +288,12 @@ const businesses = [
     id: 14,
     name: "Parkview Hills Car Spa",
     category: "Car Detailing",
-    phone: "416-285-9590",
+    phone: "416-816-1689",
     email: null,
     address: "795 O'Connor Dr, East York, ON M4B 2S6",
     website: "https://parkviewhillscarspa.com",
     premium: false,
-    image: "/images/car_detailing/parkview_hills_car_spa.JPG",
+    image: "/images/car_detailing/parkview_hills_car_spa.png",
     description: [
       "Affordable monthly memberships available",
       "Full service car spa"
@@ -392,6 +392,25 @@ const businesses = [
     website: null,
     premium: false,
     image: "/images/coffee_supply/sheba_coffee.JPEG",
+  },
+  // =============================================
+  // COFFEE SUPPLY
+  // =============================================
+  {
+    id: 81,
+    name: "Haile Vintage  & Thrift",
+    category: "Clothing",
+    phone: null,
+    email: null,
+    address: "434 Dawes Rd, Toronto, Ontario",
+    website: null,
+    premium: false,
+    image: "/images/clothing/haile_vintage.png",
+    description: [
+      "Wednesday - Friday: 12PM - 8PM",
+      "Saturday: 11AM - 8PM",
+      "Limited Pieces Available - Come Early for the best finds!"
+    ]
   },
   // =============================================
   // DENTIST
