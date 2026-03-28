@@ -523,14 +523,13 @@ const businesses = [
     id: 24,
     name: "Selam Furniture & Mattress",
     category: "Furniture Store",
-    phone: "416-690-6118",
+    phone: "416-834-7094",
     email: null,
     address: "2448 Danforth Ave, Toronto",
     website: null,
     premium: false,
     image: "/images/furniture_store/selam_furniture.JPG",
     description: [
-      "Additional Contact Number: 416-834-7094",
       "Quality furniture and mattresses",
       "Great selection at affordable prices"
     ],
