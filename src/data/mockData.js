@@ -394,10 +394,10 @@ const businesses = [
     image: "/images/coffee_supply/sheba_coffee.JPEG",
   },
   // =============================================
-  // COFFEE SUPPLY
+  // Clothing
   // =============================================
   {
-    id: 81,
+    id: 82,
     name: "Haile Vintage  & Thrift",
     category: "Clothing",
     phone: null,
@@ -410,6 +410,20 @@ const businesses = [
       "Wednesday - Friday: 12PM - 8PM",
       "Saturday: 11AM - 8PM",
       "Limited Pieces Available - Come Early for the best finds!"
+    ]
+  },
+  {
+    id: 83,
+    name: "Dan 21 Man's Clothing",
+    category: "Clothing",
+    phone: "647-777-7387",
+    email: null,
+    address: "1454 Danforth Ave, Toronto, ON, M4J 1N4",
+    website: null,
+    premium: false,
+    image: "/images/clothing/Dan21.png",
+    description: [
+      "For Wedding, Graduation, Anniversary, and so much more",
     ]
   },
   // =============================================
