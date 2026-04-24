@@ -1424,6 +1424,34 @@ const businesses = [
   },
 
   // =============================================
+  // TRAFFIC TICKET
+  // =============================================
+  {
+    id: 85,
+    name: "M.A Legal Service",
+    category: "TRAFFIC TICKET",
+    phone: "(416) 247-1616",
+    email: "matrafficticket@gmail.com",
+    address: "2095 Weston Rd. Suite 206, Toronto, ON M9N 1X7",
+    website: null,
+    premium: false,
+    image: "/images/traffic_ticket/abdi_legal_service.png",
+    description: [
+      "Free Consultation For All Your Traffic Ticket Court Matters",
+      "Over 25 years court experience",
+    ],
+    whatWeOffer: [
+      "Carless Driving",
+      "Speeding",
+      "Stunt Driving",
+      "Accidents",
+      "Redlight",
+      "Stop Sign",
+      "Criminal Charges",
+    ]
+  },
+
+  // =============================================
   // VARIETY STORE / GROCERY STORE
   // =============================================
   {
