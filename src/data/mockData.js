@@ -305,7 +305,29 @@ const businesses = [
       "UHAUL & Car Rentals"
     ]
   },
-
+  // =============================================
+  // Cellphone
+  // =============================================
+  {
+    id: 13,
+    name: "ASM Wireless",
+    category: "Cell phone",
+    phone: "(647) 343-3930",
+    email: "asmwirelessl@gmail.com",
+    address: "2527 Danforth Avenue, Toronto, ON M4C 1L1",
+    website: null,
+    premium: false,
+    image: "/images/cell_phone/asm_wireless.png",
+    description: [
+      "New, Used & Refubrished Phones, Laptops, Tablets, Ipads",
+      "Rpairing Motherboard, LCD Screens, Phones, Laptops"
+    ],
+    whatWeOffer: [
+      "Phones Reparing",
+      "Windows Installation",
+      "Laptops Repairing"
+    ]
+  },
   // =============================================
   // COFFEE SUPPLY
   // =============================================
