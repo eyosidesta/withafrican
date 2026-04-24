@@ -309,7 +309,7 @@ const businesses = [
   // Cellphone
   // =============================================
   {
-    id: 13,
+    id: 84,
     name: "ASM Wireless",
     category: "Cell phone",
     phone: "(647) 343-3930",
@@ -317,7 +317,7 @@ const businesses = [
     address: "2527 Danforth Avenue, Toronto, ON M4C 1L1",
     website: null,
     premium: false,
-    image: "/images/cell_phone/asm_wireless.png",
+    image: "/images/cell_phone/ASM_Wireless.png",
     description: [
       "New, Used & Refubrished Phones, Laptops, Tablets, Ipads",
       "Rpairing Motherboard, LCD Screens, Phones, Laptops"
