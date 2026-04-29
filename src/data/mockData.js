@@ -1053,7 +1053,7 @@ const businesses = [
     address: "8 Sampson Mews, Suite 201, Toronto, ON M3C 0H5",
     website: null,
     premium: false,
-    image: "/images/real_estate/royal_lepage.jpg",
+    image: "/images/real_estate/royal_lepage.jpeg",
     description: [
       "Additional Contact Number: 647-801-4269",
       "ንፅፋፍ አገልግሎትገዛ ንመንበሪ ይኹን ንትካል ክትገዝኡ / ንክሸጡ ደውሉለይ",
