@@ -154,6 +154,28 @@ const businesses = [
       "Repairs"
     ]
   },
+  {
+    id: 86,
+    name: "Principle Auto Sales, Service & Collision",
+    category: "Auto Mechanic / Auto Sales / Auto Body Shop",
+    phone: "416-750-7575",
+    email: null,
+    address: "1700 Midland Ave, Toronto, ON, M1P 3C2",
+    website: "https://www.principleauto.ca/",
+    premium: true,
+    image: "/images/auto_mechanic/principle_auto.png",
+    description: [
+      "Trusted used car dealership offering vehicle sales, trade-ins, financing, maintenance, repairs, diagnostics, and complete automotive services.",
+      "Additional Contact Number: 877-334-9695"
+    ],
+    whatWeOffer: [
+      "Buy & Sell Cars",
+      "Car Value Estimates",
+      "Lube & Oil Filter",
+      "Transimission Services",
+      "Engine Diagnostics & Repairs"
+    ]
+  },
 
   // =============================================
   // BAKERY
