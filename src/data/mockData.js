@@ -12,7 +12,7 @@ const businesses = [
     name: "Discount Income Tax Services",
     category: "Accounting / Income Tax",
     phone: "416-531-0073",
-    email: "discountincometax@yahoo.ca / infor@discountincometax.com",
+    email: "discountincometax@yahoo.ca / info@discountincometax.com",
     address: "959 Bloor St. West, Toronto, ON M6H 1L7",
     website: "https://www.discountincometax.com",
     premium: false,
@@ -469,6 +469,23 @@ const businesses = [
     description: [
       "For Wedding, Graduation, Anniversary, and so much more",
     ]
+  },
+  // =============================================
+  // CONSTRUCTION
+  // =============================================
+  {
+    id: 88,
+    name: "Cornerstone Home Construction Inc",
+    category: "Construction",
+    phone: "519-504-7771",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/images/renovation/cornerstone_renovation.png",
+    description: [
+      "እቤትዎን ለማደስ እንዲሁም basement, Deck, Paint, Bathroom, Driveway, Window, Door, Kitchen  ለመስራት ካሰቡ ከ 20 ዓመት በላይ ልምድ ያለውን ሲሳይ አበበን ደውለው ያነጋግሩ:: "
+    ],
   },
   // =============================================
   // DENTIST
@@ -1161,6 +1178,20 @@ const businesses = [
     website: null,
     premium: false,
     image: "/images/renovation/semere_construction.png",
+  },
+  {
+    id: 87,
+    name: "Cornerstone Home Construction Inc",
+    category: "Renovation",
+    phone: "519-504-7771",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/images/renovation/cornerstone_renovation.png",
+    description: [
+      "እቤትዎን ለማደስ እንዲሁም basement, Deck, Paint, Bathroom, Driveway, Window, Door, Kitchen  ለመስራት ካሰቡ ከ 20 ዓመት በላይ ልምድ ያለውን ሲሳይ አበበን ደውለው ያነጋግሩ:: "
+    ],
   },
 
   // =============================================
