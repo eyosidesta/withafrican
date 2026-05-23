@@ -825,7 +825,7 @@ const businesses = [
     category: "Law Office / Legal Service",
     phone: "647-557-3570",
     email: "mishelle@trockeandassociates.ca",
-    address: "2300 Danforth Ave, Toronto, ON M4C 1K8",
+    address: "B-715 Danforth Ave, Toronto, ON M4J 1L2",
     website: "https://www.taslaw.ca",
     premium: false,
     image: "/images/law_office/tas_the_law_office.png",
