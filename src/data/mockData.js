@@ -176,6 +176,26 @@ const businesses = [
       "Engine Diagnostics & Repairs"
     ]
   },
+  {
+    id: 87,
+    name: "Hyab Auto Sales",
+    category: "Auto Mechanic / Auto Sales / Auto Body Shop",
+    phone: "519-619-2610",
+    email: "hyabautosales@gmail.com",
+    address: "1401 Weber St E, Kitchener, ON, N2A 3A7",
+    website: null,
+    premium: false,
+    image: "/images/auto_mechanic/hyab_auto_sales.png",
+    description: [
+      "Your Satisfaction is Our Promise"
+    ],
+    whatWeOffer: [
+      "Quality Vehicles",
+      "Honest Service",
+      "Competitive Financing",
+      "Customer Focused"
+    ]
+  },
 
   // =============================================
   // BAKERY
