@@ -1456,6 +1456,21 @@ const businesses = [
       "Spices"
     ]
   },
+  {
+    id: 89,
+    name: "Dahlak WholeSale",
+    category: "Teff Grains",
+    phone: "+1-414-903-7363",
+    email: null,
+    address: "30 Bertrand ave Unit c9, Toronto, ON, M1L 2PS",
+    website: null,
+    premium: true,
+    image: "/images/teff_grains/dahlak_wholesale.png",
+    description: [
+      "ዘወትር እሮብና ቅዳሜ ከኢትዮጵያ የሚመጣውን ንፅህ ጤፍ መርጠው አስፈጭተው መውሰድ ይችላላሉ :: በስራችን ይደሰታሉ",
+      "በተጨማሪም እዚሁ ወፍጮ ቤት የተፈጨውን ጤፍ በቀላሉ ማግኘት ከፈለጉ SENAY ብለን ፈጭተን አሽገን ለገበያ አቅርበነዋል:: በአቅራብያዎት ባለው ሀበሻ ቤት ውይም ሱቅ በቀላሉ ያገኙታል",
+     ]
+  },
 
   // =============================================
   // TAVEL AGENCY / AIR LINES
