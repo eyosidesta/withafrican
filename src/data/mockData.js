@@ -57,6 +57,29 @@ const businesses = [
       "Others"
     ]
   },
+  {
+    id: 90,
+    name: "Hany Mehari Financial Services",
+    category: "Accounting / Income Tax",
+    phone: "437-568-6666",
+    email: "hmehari@ledgers.com",
+    address: "201 - 8 Sampson Mews North York, ON M3C 0H5",
+    website: null,
+    premium: false,
+    image: "/images/accounting_income_tax/Hany_accounting.jpg",
+    description: [
+      "Additional Contact Number: 416-693-4888",
+    ],
+    whatWeOffer: [
+      "Accounting & Bookkeeping",
+      "Corporate Income Tax",
+      "Personal Income Tax",
+      "US Tax Return",
+      "Charity Returns",
+      "Payroll & Related Services",
+      "Business Plans & Budgets",
+    ]
+  },
 
   // =============================================
   // AUTO MECHANIC / AUTO SALES / AUTO BODY SHOP
@@ -196,7 +219,52 @@ const businesses = [
       "Customer Focused"
     ]
   },
-
+  {
+    id: 91,
+    name: "Aseb Auto Mechanic",
+    category: "Auto Mechanic / Auto Sales / Auto Body Shop",
+    phone: "416-751-2892",
+    email: null,
+    address: "933 Warden Ave, Scarborough, ON MIL 4C5",
+    website: null,
+    premium: false,
+    image: "/images/auto_mechanic/aseb_automechanic.png",
+    description: [
+      "Your Satisfaction is Our Promise"
+    ],
+    whatWeOffer: [
+      "Body Repair",
+      "Oil Changes",
+      "Brake Repairs",
+      "Tire Changes",
+      "car AC Repair"
+    ]
+  },
+  {
+    id: 98,
+    name: "Loyal King One King",
+    category: "Auto Mechanic / Auto Sales / Auto Body Shop",
+    phone: "647-629-4022",
+    email: "onekingauto2@gmail.com",
+    address: "287 OLD KINGSTON RD SCARBOROUGH, ON MC 1B1",
+    website: "https://onekingauto.com/",
+    premium: true,
+    image: "/images/auto_mechanic/loyal_king_one_king.png",
+    description: [
+      "PREOWNED CARS SALES - Quality Cars You Can Trust",
+      "WE BUY, SALE & TRADE CARS - Best Deals. Honest Service",
+      "FINANCING AVAILABLE - Easy Approval. Drive Today!"
+    ],
+    whatWeOffer: [
+      
+      "General Auto Repair",
+      "Electric Repair",
+      "Collision Repair",
+      "Mechanical Safety Inspection",
+      "General Service",
+      "Used Tires & New Tire Sale"
+    ]
+  },
   // =============================================
   // BAKERY
   // =============================================
@@ -219,6 +287,30 @@ const businesses = [
       "Fresh Bread",
       "Cakes & Desserts",
       "Coffee & Beverages"
+    ]
+  },
+
+    // =============================================
+  // BANQUET
+  // =============================================
+  {
+    id: 94,
+    name: "Zb Hospitality Group Inc",
+    category: "Bakery",
+    phone: "416-407-1217",
+    email: "zee@zbhospitality.com",
+    address: "2301 Keele st. Unit 101, North York, ON M6M 39",
+    website: "https://www.yorkmillsgallary.com",
+    premium: false,
+    image: "/images/banquet/zee_hospitality.png",
+    description: [
+      "Zb Hospitality group Ing is a Toronto-based hospitality and catering company",
+    ],
+    whatWeOffer: [
+      "6 Event catering",
+      "Corporate and social events",
+      "Venue management",
+      "Event production and design"
     ]
   },
 
@@ -275,6 +367,29 @@ const businesses = [
     website: null,
     premium: false,
     image: "/images/beauty_salon/sunrise_beauty.png",
+  },
+  {
+    id: 95,
+    name: "Sunny Bella Bloom",
+    category: "Beauty Salon & Supply",
+    phone: "(416) 474-1090",
+    email: "info@sunnybellabloom.ca",
+    address: "614 Fleet St, Suite 104, Toronto. ON M5V 1B3",
+    website: "https://sunnybellabloom.ca/",
+    premium: false,
+    image: "/images/beauty_salon/Sunny_bella.jpg",
+    description: [
+      "Beauty is being comfortable in your own skin, pamper it well",
+    ],
+    whatWeOffer: [
+      "Hair Treatment",
+      "Hair Styling",
+      "Skincare Service",
+      "Face Treatment",
+      "Make Up",
+      "Japanese Head Scalp Massage",
+      "Teeth Whitening"
+    ]
   },
 
   // =============================================
@@ -368,6 +483,29 @@ const businesses = [
       "Phones Reparing",
       "Windows Installation",
       "Laptops Repairing"
+    ]
+  },
+  // =============================================
+  // Cleaning
+  // =============================================
+  {
+    id: 92,
+    name: "Buzu Cleaning",
+    category: "Cell phone",
+    phone: "(437) 855-9923",
+    email: null,
+    address: null,
+    website: null,
+    premium: false,
+    image: "/images/cleaning/Buzu_cleaning.png",
+    description: [
+      "የእርስዎን ቤት በደንብ አድርጌ አጽድቼ ወልውዬ በሚገባ አቀርብልዎታለሁ በስራዬ የደታሉ። በ (437) 855-9923 ደውለው ያገኙኛል።"
+    ],
+    whatWeOffer: [
+      "School Office",
+      "Restaurant",
+      "Doctor's Office",
+      "House Cleaning"
     ]
   },
   // =============================================
@@ -973,6 +1111,26 @@ const businesses = [
       "Groceries"
     ]
   },
+  {
+    id: 97,
+    name: "4 Kilo Butcher",
+    category: "Meat Market",
+    phone: "(416) 694-8893",
+    email: null,
+    address: "2009 DANFORTH AVE. TORONTO, ON M4C 1J7",
+    website: "https://4kilobutcher.com/",
+    premium: false,
+    image: "/images/meat_market/4_kilo_butcher.png",
+    description: [
+      "COME ENJOY AUTHENTIC ETHIOPIAN FLAVORS, FRESH SPICES, AND UNFORGETTABLE MEALS TODAY HERE.",
+      "የሚያስፈልጎትን ምግብ INGREDIENT እኛ ጋር ይሸምቱ"
+    ],
+    whatWeOffer: [
+      "DIVERSE",
+      "WELL-STOCKED",
+      "AUTHENTIC"
+    ]
+  },
 
   // =============================================
   // MORTGAGE AGENT
@@ -1387,6 +1545,20 @@ const businesses = [
       "We are located two blocks North of Wellesley St at Yong St",
     ],
   },
+  {
+    id: 93,
+    name: "Rehobot Cafe",
+    category: "Restaurant / Café",
+    phone: "(416)-686-1104",
+    email: null,
+    address: "2737 Danforth Ave, Toronto, ON M4C 1L8",
+    website: null,
+    premium: false,
+    image: "/images/restaurant_cafe/rehobot_cafe.png",
+    description: [
+      "Authentic Ethiopian Flavors, Culture, Warmth, Beautifully Served",
+    ],
+  },
 
   // =============================================
   // SPICES
@@ -1668,6 +1840,29 @@ const businesses = [
     premium: false,
     image: "/images/videographer/photo_berhan.png",
 
+  },
+  {
+    id: 96,
+    name: "Alpha Videography & Photography",
+    category: "Videographer",
+    phone: "647-784-2286",
+    email: null,
+    address: null,
+    website: "https://alphaphoto-video.com",
+    premium: false,
+    image: "/images/videographer/alpha_videography.jpg",
+    description: [
+      "Capturing the moments you'll want to look back on forever",
+      "20 years of experince"
+    ],
+    whatWeOffer: [
+      "Food Photography",
+      "Event Photography",
+      "Couple Photography",
+      "Maternity Photography",
+      "Studio Photography",
+      "Wedding Photography"
+    ]
   },
 
   // =============================================
