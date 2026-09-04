@@ -301,7 +301,7 @@ const businesses = [
     email: "zee@zbhospitality.com",
     address: "2301 Keele st. Unit 101, North York, ON M6M 39",
     website: "https://www.yorkmillsgallary.com",
-    premium: false,
+    premium: true,
     image: "/images/banquet/zee_hospitality.png",
     description: [
       "Zb Hospitality group Ing is a Toronto-based hospitality and catering company",
