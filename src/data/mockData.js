@@ -1156,6 +1156,28 @@ const businesses = [
     ]
   },
 
+  {
+    id: 100,
+    name: "Langano Butcher Shop and Takeout",
+    category: "Meat Market",
+    phone: "(647) 779-5230",
+    email: null,
+    address: "2159 Danforth Ave, M4C 1K2",
+    website: null,
+    premium: false,
+    image: "/images/meat_market/langano_siga_bet.jpg",
+    description: [
+      "Quality you Deserve, Service you can Trust!"
+    ],
+    whatWeOffer: [
+      "Premier Quality",
+      "Fresh Meat",
+      "Butcher Shop",
+      "Takeout",
+      "Friendly Service"
+    ]
+  },
+
   // =============================================
   // MORTGAGE AGENT
   // =============================================
