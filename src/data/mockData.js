@@ -280,7 +280,7 @@ const businesses = [
       "Reliable routine service for your comfort and safety."
     ],
     whatWeOffer: [
-      "6 Accident repair",
+      "Accident repair",
       "Towing service",
       "Paint corrections",
       "Paint corrections",
