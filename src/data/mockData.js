@@ -265,6 +265,30 @@ const businesses = [
       "Used Tires & New Tire Sale"
     ]
   },
+  {
+    id: 99,
+    name: "Red Sea Auto Collission",
+    category: "Auto Mechanic / Auto Sales / Auto Body Shop",
+    phone: "647-806-7570",
+    email: null,
+    address: "127 Manville Rd #11 Scarborough, ON MIL 4J7",
+    website: null,
+    premium: false,
+    image: "/images/auto_mechanic/red_sea_auto_collission.png",
+    description: [
+      "We Make Your Car looks As Good As New Car",
+      "Reliable routine service for your comfort and safety."
+    ],
+    whatWeOffer: [
+      "6 Accident repair",
+      "Towing service",
+      "Paint corrections",
+      "Paint corrections",
+      "Oil Change",
+      "Insurance Claim",
+      "Storage"
+    ]
+  },
   // =============================================
   // BAKERY
   // =============================================
