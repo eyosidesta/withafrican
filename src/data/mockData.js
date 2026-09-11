@@ -415,6 +415,25 @@ const businesses = [
       "Teeth Whitening"
     ]
   },
+  {
+    id: 102,
+    name: "Ethiopian Botanic Beauty",
+    category: "Beauty Salon & Supply",
+    phone: null,
+    email: null,
+    address: "2017 Danforth ave, Toronto. ON M4C 1J7",
+    website: null,
+    premium: false,
+    image: "/images/beauty_salon/ethiopian_botanic_beauty.jpeg",
+    description: [
+      "Beaute botanique Éthiopienne",
+    ],
+    whatWeOffer: [
+      "Pure / Pur",
+      "Natural / Naturel",
+      "Made in Ethiopia / Fabriqué en Ethiopie"
+    ]
+  },
 
   // =============================================
   // CATERING
@@ -1920,7 +1939,7 @@ const businesses = [
     name: "Cornerstone Tech Studio / Eyosias",
     category: "Website / Graphic Design / Data Science",
     phone: "647-922-7599",
-    email: "desta.eyosias@gmail.com",
+    email: "eyosiasdesta10@gmail.com",
     address: null,
     website: "https://www.cornerstonetechstudio.com",
     premium: false,
@@ -1940,6 +1959,27 @@ const businesses = [
       "Website Maintenance & Updates",
       "Data Reports & Business Insights",
       "Custom Digital Solutions for Businesses"
+    ]
+  },
+  {
+    id: 101,
+    name: "Tor Creatives",
+    category: "Website / Graphic Design / Data Science",
+    phone: "647-871-7786",
+    email: "contact@torcreatives.com",
+    address: null,
+    website: "https://www.torcreatives.com",
+    premium: false,
+    image: "/images/website_design_datascience/tor_.png",
+    description: [
+      "Conversion-focused websites, SEO & digital growth for Ethiopian and Eritrean businesses across Ontario",
+    ],
+    whatWeOffer: [
+      "Web Design & Development",
+      "Brand & Content Systems",
+      "SEO & Al Search Visibility",
+      "Growth, Maintenance & Insights",
+      "Al Agent Readiness"
     ]
   },
 
