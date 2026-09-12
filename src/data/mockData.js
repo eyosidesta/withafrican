@@ -417,7 +417,7 @@ const businesses = [
   },
   {
     id: 102,
-    name: "Ethiopian Botanic Beauty",
+    name: "GREEN CARE NATURALS - Ethiopian Botanic Beauty",
     category: "Beauty Salon & Supply",
     phone: null,
     email: null,
