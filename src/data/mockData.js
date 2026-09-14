@@ -1970,7 +1970,7 @@ const businesses = [
     address: null,
     website: "https://www.torcreatives.com",
     premium: false,
-    image: "/images/website_design_datascience/tor_.png",
+    image: "/images/website_design_datascience/tor_creatives.jpeg",
     description: [
       "Conversion-focused websites, SEO & digital growth for Ethiopian and Eritrean businesses across Ontario",
     ],
