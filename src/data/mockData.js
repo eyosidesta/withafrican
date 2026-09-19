@@ -1935,33 +1935,6 @@ const businesses = [
   // =============================================
 
   {
-    id: 78,
-    name: "Cornerstone Tech Studio / Eyosias",
-    category: "Website / Graphic Design / Data Science",
-    phone: "647-922-7599",
-    email: "eyosiasdesta10@gmail.com",
-    address: null,
-    website: "https://www.cornerstonetechstudio.com",
-    premium: false,
-    image: "/images/website_design_datascience/cornerstone_tech_studio.png",
-    description: [
-      "Cornerstone Tech Studio helps businesses grow using modern technology and design",
-      "We create beautiful and professional websites for small and growing businesses",
-      "We help businesses look trustworthy and professional online",
-      "Our services are designed to be simple, affordable, and effective",
-      "Serving clients in Canada and internationally"
-    ],
-    whatWeOffer: [
-      "Business Websites",
-      "Online Store (E-commerce) Websites",
-      "Logo Design & Branding",
-      "Flyers, Posters & Social Media Designs",
-      "Website Maintenance & Updates",
-      "Data Reports & Business Insights",
-      "Custom Digital Solutions for Businesses"
-    ]
-  },
-  {
     id: 101,
     name: "Tor Creatives",
     category: "Website / Graphic Design / Data Science",
