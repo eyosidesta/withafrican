@@ -419,7 +419,7 @@ const businesses = [
     id: 102,
     name: "GREEN CARE NATURALS - Ethiopian Botanic Beauty",
     category: "Beauty Salon & Supply",
-    phone: null,
+    phone: "416-699-0909",
     email: null,
     address: "2017 Danforth ave, Toronto. ON M4C 1J7",
     website: null,
@@ -427,6 +427,8 @@ const businesses = [
     image: "/images/beauty_salon/ethiopian_botanic_beauty.jpeg",
     description: [
       "Beaute botanique Éthiopienne",
+      "Additional Contact Number: 416-319-3119",
+      "WhatsApp & Telegram: +251962346840",
     ],
     whatWeOffer: [
       "Pure / Pur",
