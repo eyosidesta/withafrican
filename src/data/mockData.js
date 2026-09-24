@@ -420,7 +420,8 @@ const businesses = [
     name: "GREEN CARE NATURALS - Ethiopian Botanic Beauty",
     category: "Beauty Salon & Supply",
     phone: "416-699-0909",
-    email: null,
+    email: null
+      //for deployment
     address: "2017 Danforth ave, Toronto. ON M4C 1J7",
     website: null,
     premium: false,
